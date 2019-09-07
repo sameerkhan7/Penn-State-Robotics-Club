@@ -74,10 +74,18 @@ void loop() {
 }
 ```
 ### LED Toggle Sketch Breakdown
-```cint LED_PIN = 13;`
+```c
+int LED_PIN = 13;
+```
+Creates a variable that can hold any integer value called `LED_PIN` and sets it equal to 13
 
+
+```c
+pinMode(LED_PIN, OUTPUT);
+```
+test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY5MjA1MzAsMTUwNTMyODgxMyw2MD
-kyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3
-NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbLTQ4Mjc2OTIxNiwxNTA1MzI4ODEzLDYwOT
+I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
+MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

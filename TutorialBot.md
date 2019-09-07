@@ -18,7 +18,8 @@ The first step is to download and install the Arduino IDE. IDE stands for integr
 
 ## Introduction to Basic Programming Logic
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4ND
-kzMDE4NV19
+eyJoaXN0b3J5IjpbOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNj
+M0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

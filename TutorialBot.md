@@ -79,7 +79,7 @@ void loop() {
 ```c
 int LED_PIN = 13;
 ```
-Creates a variable that can hold any integer value called `LED_PIN` and sets it equal to 13
+Creates a variable of type integer called `LED_PIN` and sets it equal to 13. Integers (int) can hold whole numbers positive or negative.
 &nbsp;
 ```c
 pinMode(LED_PIN, OUTPUT);
@@ -94,10 +94,12 @@ The modes you can set for a digital pin are:
  - `INPUT_PULLUP` - Ignore [this](https://www.arduino.cc/en/Tutorial/DigitalPins) for now
 
 FYI: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V
+&nbsp;
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDU1NTEyNiwxNTA1MzI4ODEzLDYwOT
+eyJoaXN0b3J5IjpbMjA4NjE3MjM5MCwxNTA1MzI4ODEzLDYwOT
 I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
 MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

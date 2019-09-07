@@ -53,10 +53,12 @@ Putting it all together lets us a build an Arduino Sketch to do whatever we want
 For example, the code below cycles an LED on and off after every 1 second.
 
 ```c
+// Create a variable that stores
+// the pin number where our LED is.
 int LED_PIN = 13;
 
 void setup() {
-	// S
+	// Set the LED_PIN as an OUTPUT
 	pinMode(LED_PIN, OUTPUT);
 }
 
@@ -73,7 +75,7 @@ void loop() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTk4MTM4MDgsNjA5Mjc4NjA5LC0xND
+eyJoaXN0b3J5IjpbLTE3NTc0NzU4NjQsNjA5Mjc4NjA5LC0xND
 IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
 NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

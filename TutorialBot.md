@@ -39,11 +39,16 @@ void loop() {
 The `setup` function runs once when the Arduino first turns on. When the `setup` function finishes running all of its code, the `loop` function then runs for forever.  Each time that `loop` finishes it is run again, hence the name loop!
 
 **Why do we need setup and loop?**
+```c
+void setup() {
+	pinMode(13, OUTPUT);
+}
+```
 `setup` is useful for running one time code that configures Arduino pins so we can do things like add an LED or attach a Servo motor. For example, if we want to configure one of the pins on the Arduino as an output, we would do that in setup.
 
-On the other hand, `loop` is where most of our program actually runs. Having a function that is continually called up to 
+On the other hand, `loop` is where most of our program actually runs. Having a function that is continually called up to 117,000 times / second ([source](https://learn.sparkfun.com/blog/1687)) is really useful! 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0MjE5NjMxLC0xNDIwMjgyNzE4LDE5OT
-U3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgw
-OCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTE2OTcyMTg1MzQsLTE0MjAyODI3MTgsMT
+k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
+ODA4LDk4NDkzMDE4NV19
 -->

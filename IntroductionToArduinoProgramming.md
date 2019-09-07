@@ -20,7 +20,7 @@ void loop() {
 }
 ```
 
-The `setup` function runs once when the Arduino first turns on. When the `setup` function finishes running all of its code, the `loop` function then runs for forever.  Each time that `loop` finishes it is run again, hence the name loop!
+The `setup` function runs once when the Arduino first turns on. When the `setup` function finishes running all of its code, the `loop` function then runs for forever.  Each time that `loop` finishes it runs again, hence the name loop!
 
 **Why do we need setup and loop?**
 ```c
@@ -58,11 +58,12 @@ void loop() {
 }
 ```
 ### LED Toggle Sketch Breakdown
+Let's go through the above code step-by-step and try to understand it.
 ```c
 int LED_PIN = 13;
 ```
 Creates a variable of type integer called `LED_PIN` and sets it equal to 13. Integers (int) can hold whole numbers positive or negative.
-&nbsp;
+
 ```c
 pinMode(LED_PIN, OUTPUT);
 ```
@@ -76,21 +77,21 @@ The modes you can set for a digital pin are:
  - `INPUT_PULLUP` - Ignore [this](https://www.arduino.cc/en/Tutorial/DigitalPins) for now
 
 FYI: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V
-&nbsp;
+
 ```c
 digitalWrite(LED_PIN, HIGH);
 ```
 Sets the LED_PIN to HIGH (5V), this will deliver power to the LED and turn it on.
-&nbsp;
+
 ```c
 delay(1000);
 ```
 Tells the Arduino to pause and wait for 1000 milliseconds before moving on.
-&nbsp;
+
 ```c
 digitalWrite(LED_PIN, LOW);
 ```
 Sets the LED_PIN to LOW (0V), this will disable power to the LED and turn it off.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyMzUwMDQxLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTk0NzQxMzAzOCw3MzA5OTgxMTZdfQ==
 -->

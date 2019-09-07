@@ -11,8 +11,11 @@ The car that never crashes into a wall. Uses an ultrasonic distance sensor to dr
 
 **Requirements**:
 - The Arduino IDE 
-- Ultrasonic Library here: 
+- Robot materials from the club
+
+## Step 1: Setup the Arduino IDE
+The first step is to download and install the ardu
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbOTgzMDgxNDIxLDk4NDkzMDE4NV19
 -->

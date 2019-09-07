@@ -5,6 +5,7 @@ Let's get into the basics!
 
 ## What is a variable?
 A variable is a place to store a piece of data. It has a name, a value, and a type.
+
 Learn how to create and use a variable on the Arduino [site](https://www.arduino.cc/en/Tutorial/Variables) before moving on.
 
 ## Setup and Loop
@@ -109,6 +110,6 @@ Follow these directions to get going:
 4. Connect your Arduino to your laptop
 5. In `Tools > Port` select the port that you think is your Arduino. For windows it will say something like `COM{number}` on Mac it will look like `/dev/cu.{something}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTY2NTE2Myw1NjIyOTg1ODMsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTc1NzQ5ODA4MywtNTUxNjY1MTYzLDU2Mj
+I5ODU4Myw3MzA5OTgxMTZdfQ==
 -->

@@ -87,15 +87,15 @@ Tells the Arduino to configure pin LED_PIN as an output. Since, `LED_PIN = 13` p
 
 The modes you can set for a pin are: 
 
- - `INPUT`
- - `OUTPUT`
- - 
+ - `INPUT` - Allows the Arduino to read either a 5V "HIGH" voltage or 0V "LOW" voltage
+ - `OUTPUT` - Allows the Arduino to output either a 5V "HIGH" voltage or 0V "LOW" voltage
+ - `INPUT_PULLUP`
 
 `INPUT`,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMTQwOTUsMTUwNTMyODgxMyw2MDkyNz
-g2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMs
-MTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbLTcwOTcwMTE5MSwxNTA1MzI4ODEzLDYwOT
+I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
+MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

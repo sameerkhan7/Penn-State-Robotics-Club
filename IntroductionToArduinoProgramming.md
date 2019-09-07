@@ -102,9 +102,10 @@ Once you've written your program wouldn't it be nice to actually run it? Open up
 
 Then, copy paste the LED sketch from above into the text editor clearing all of the old code.
 
-Connec
+Under `Tools > Board`, make sure `Arduino/Genuino Uno` is selected
 
+Connect your Arduino to your laptop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTI4NTU0Niw1NjIyOTg1ODMsNzMwOT
+eyJoaXN0b3J5IjpbMTY1OTIzOTQxNiw1NjIyOTg1ODMsNzMwOT
 k4MTE2XX0=
 -->

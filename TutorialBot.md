@@ -50,12 +50,13 @@ On the other hand, `loop` is where most of our program actually runs. Having a f
 
 Putting it all together lets us a build an Arduino Sketch to do whatever we want!
 
-For example, the below code cycles an LED on and off after every 1 second.
+For example, the code below cycles an LED on and off after every 1 second.
 
 ```c
 int LED_PIN = 13;
 
 void setup() {
+	// S
 	pinMode(LED_PIN, OUTPUT);
 }
 
@@ -72,7 +73,7 @@ void loop() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OT
-U3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgw
-OCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTExMTk4MTM4MDgsNjA5Mjc4NjA5LC0xND
+IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
+NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

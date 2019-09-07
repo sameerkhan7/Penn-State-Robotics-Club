@@ -61,11 +61,18 @@ void setup() {
 
 void loop() {
 	// Turn on the LED
-	digitalWrite
+	digitalWrite(LED_PIN, HIGH);
+	// Wait 1000ms = 1s
+	delay(1000);
+	// Turn off the LED
+	digitalWrite(LED_PIN, LOW);
+	// Wait 1000ms = 1s
+	delay(1000);
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYwMzc3OTgsLTE0MjAyODI3MTgsMT
-k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
-ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OT
+U3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgw
+OCw5ODQ5MzAxODVdfQ==
 -->

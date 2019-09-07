@@ -1,13 +1,13 @@
 # The Wall Detecting Car
 
-The car that never crashes into a wall. Uses an ultrasonic distance sensor to drive forward until it senses a wall and stops right before it. Uses an LED to indicate that it detects a wall.
+A car that never crashes into a wall. Uses an ultrasonic distance sensor to drive forward until it senses a wall and stops right before it. Uses an LED to indicate that it detects a wall.
 
 **What you will learn**:
  - Basic C Programming
  - Basic electronic circuits
  - Arduino IO (Input-Output)
- - PWM Motor Speed Control
  - Sensing distances with an Ultrasonic sensor
+ - (Optional) PWM Motor Speed Control
 
 **Requirements**:
 - The Arduino IDE 
@@ -36,8 +36,8 @@ void loop() {
 }
 ```
 
-The setup function runs once when the 
+The setup function runs once when the Arduino first turns on. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM1MjY3NDEsOTUzMDYwNzczLDE5ND
-MwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbNjQ4MDc2MTIzLDk1MzA2MDc3MywxOTQzMD
+A3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

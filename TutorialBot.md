@@ -50,7 +50,7 @@ On the other hand, `loop` is where most of our program actually runs. Having a f
 
 Putting `setup` and `loop` together lets us a build an Arduino Sketch to do whatever we want!
 
-For example, the code below cycles an LED on and off after every 1 second.
+For example, the code below cycles an LED on and off after every 1 second. Don't worry we'll be breaking it down more next.
 
 ```c
 // Create a variable that stores
@@ -73,9 +73,11 @@ void loop() {
 	delay(1000);
 }
 ```
+### LED Toggle Sketch Breakdown
+```cint LED_PIN = 13;`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0Mj
-AyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0
-MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbLTE3MTY5MjA1MzAsMTUwNTMyODgxMyw2MD
+kyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3
+NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
 -->

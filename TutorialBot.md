@@ -24,7 +24,7 @@ A variable is a place to store a piece of data. It has a name, a value, and a ty
 Learn how to create and use a variable on the Arduino [site](https://www.arduino.cc/en/Tutorial/Variables) before moving on.
 
 ### Setup and Loop
-There are 2 important sections in the Arduino program (called a Sketch), `setup` and `loop`. 
+There are 2 important sections (functions) in the Arduino program (called a Sketch), `setup` and `loop`. 
 
 ```c
 void setup() {
@@ -36,8 +36,8 @@ void loop() {
 }
 ```
 
-Setup runs once when the Arduino 
+The setup function runs once when the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzczNTU0OCw5NTMwNjA3NzMsMTk0Mz
-AwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbLTEzODM1MjY3NDEsOTUzMDYwNzczLDE5ND
+MwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

@@ -36,8 +36,8 @@ void loop() {
 }
 ```
 
-The setup function runs once when the Arduino first turns on. 
+The `setup` function runs once when the Arduino first turns on. When the `setup` function finishes running all of its code, the `loop` function then runs for forever.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MDc2MTIzLDk1MzA2MDc3MywxOTQzMD
-A3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbLTEwOTQ2MDQ0NzgsOTUzMDYwNzczLDE5ND
+MwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

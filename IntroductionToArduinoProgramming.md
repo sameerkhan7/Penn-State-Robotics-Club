@@ -98,7 +98,8 @@ Phew that was a lot right? It gets easier from here trust us. Let's try and run 
 ## Uploading a Sketch to an Arduino
 Once you've written your program wouldn't it be nice to actually run it?
 
-
+First, copy paste the LED sketch from above into a new Arduino Sketch.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMjk4NTgzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTQzNjQxMDM5LDU2MjI5ODU4Myw3MzA5OT
+gxMTZdfQ==
 -->

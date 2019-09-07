@@ -1,4 +1,4 @@
-# The Wall Detecting Car
+# TutorialBot - The Wall Detecting Car
 
 A car that never crashes into a wall. Uses an ultrasonic distance sensor to drive forward until it senses a wall and stops right before it. Uses an LED to indicate that it detects a wall.
 
@@ -36,8 +36,11 @@ void loop() {
 }
 ```
 
-The `setup` function runs once when the Arduino first turns on. When the `setup` function finishes running all of its code, the `loop` function then runs for forever.  
+The `setup` function runs once when the Arduino first turns on. When the `setup` function finishes running all of its code, the `loop` function then runs for forever.  Each time that `loop` finishes it is run again, hence the name loop!
+
+**Why do we need setup and loop?**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ2MDQ0NzgsOTUzMDYwNzczLDE5ND
-MwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTE4NTEwMzA5OCw5NTMwNjA3NzMsMTk0Mz
+AwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
 -->

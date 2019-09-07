@@ -20,8 +20,9 @@ The first step is to download and install the Arduino IDE. IDE stands for integr
 Programming can look hard at first but we're going to keep it simple and avoid anything you don't need to build a simple robot. Let's look at some basics:
 
 **What is a variable?**
-A variabl
+"A variable is a place to store a piece of data. It has a name, a value, and a type."
+Learn how to create and use a variable on the Arduino [site](https://www.arduino.cc/en/Tutorial/Variables)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc3MTgzNzIsOTUzMDYwNzczLDE5ND
+eyJoaXN0b3J5IjpbLTE3OTA0ODI5NjUsOTUzMDYwNzczLDE5ND
 MwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

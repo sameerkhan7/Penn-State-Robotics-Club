@@ -85,8 +85,12 @@ Sets the LED_PIN to HIGH (5V), this will deliver power to the LED and turn it on
 ```c
 delay(1000);
 ```
-Tells t
-
+Tells the Arduino to pause and wait for 1000 milliseconds before moving on.
+&nbsp;
+```c
+digitalWrite(LED_PIN, LOW);
+```
+Sets the LED_PIN to LOW (0V), this will disable power to the LED and turn it off.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTk0ODUxMSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbOTIyMzUwMDQxLDczMDk5ODExNl19
 -->

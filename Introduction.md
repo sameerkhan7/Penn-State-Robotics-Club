@@ -112,7 +112,10 @@ Follow these directions to get going:
 6. Click on the checkmark to make sure the code is valid
 7. Upload your program with the arrow
 8. Congrats, the LED on the Arduino board should now blink on and off!
+
+## What now?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMyNzY1NzQsNDc1NzI0Njg4LDEwMj
+eyJoaXN0b3J5IjpbLTIwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMj
 AwNTkxNTVdfQ==
 -->

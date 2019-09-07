@@ -1,5 +1,5 @@
 # Welcome to Penn State Robotics
-![https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/banner.png][https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/banner.png]
+![logo](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/banner.png)
 
 Whether you're a new or returning member there's always something to learn.
 
@@ -21,7 +21,7 @@ The car that never crashes into a wall. Uses an ultrasonic distance sensor to dr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTI4NzU2MSwtMTA4MTYxNDgzOCwxMT
+eyJoaXN0b3J5IjpbLTE2NjA1MTk3NCwtMTA4MTYxNDgzOCwxMT
 gxOTI5NjAyLDE1NDUzMDQ1OCwtMjAyMzA3MDU1LDE1NDgxMzk5
 NjEsLTE0MDU0OTcxMzhdfQ==
 -->

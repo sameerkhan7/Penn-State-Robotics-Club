@@ -109,7 +109,10 @@ Follow these directions to get going:
 
 4. Connect your Arduino to your laptop
 5. In `Tools > Port` select the port that you think is your Arduino. For windows it will say something like `COM{number}` on Mac it will look like `/dev/cu.{something}`
-6. Click on the checkmark to make 
+6. Click on the checkmark to make sure the code is valid
+7. Upload your program with the arrow
+8. Congrats, the LED on the Arduino board should now blink on and off!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NzI0Njg4LDEwMjAwNTkxNTVdfQ==
+eyJoaXN0b3J5IjpbLTE2MzMyNzY1NzQsNDc1NzI0Njg4LDEwMj
+AwNTkxNTVdfQ==
 -->

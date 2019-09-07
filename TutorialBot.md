@@ -78,20 +78,24 @@ void loop() {
 int LED_PIN = 13;
 ```
 Creates a variable that can hold any integer value called `LED_PIN` and sets it equal to 13
+&nbsp;
+```c
+pinMode(LED_PIN, OUTPUT);
+```
 
 Tells the Arduino to configure pin LED_PIN as an output. Since, `LED_PIN = 13` pin #13 is set an output.
 
 The modes you can set for a pin are: 
 
- - ''
+ - `INPUT`
+ - `OUTPUT`
+ - 
 
 `INPUT`,
-```c
-pinMode(LED_PIN, OUTPUT);
-```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDMzODMwLDE1MDUzMjg4MTMsNjA5Mj
-c4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzcz
-LDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbOTUyMTQwOTUsMTUwNTMyODgxMyw2MDkyNz
+g2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMs
+MTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
 -->

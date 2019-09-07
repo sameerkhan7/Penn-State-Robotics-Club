@@ -96,16 +96,19 @@ Sets the LED_PIN to LOW (0V), this will disable power to the LED and turn it off
 Phew that was a lot right? It gets easier from here trust us. Let's try and run the above code on our Arduino's now.
 
 ## Uploading a Sketch to an Arduino
-Once you've written your program wouldn't it be nice to actually run it? Open up the Arduino IDE and hit:
+Once you've written your program wouldn't it be nice to actually run it? 
 
+Follow these directions to get going:
+1. Open up the Arduino IDE and hit:
 `File > New`
 
-Then, copy paste the LED sketch from above into the text editor clearing all of the old code.
+2. Then, copy paste the LED sketch from above into the text editor clearing all of the old code.
 
-Under `Tools > Board`, make sure `Arduino/Genuino Uno` is selected
+3. Under `Tools > Board`, make sure `Arduino/Genuino Uno` is selected
 
-Connect your Arduino to your laptop
+4. Connect your Arduino to your laptop
+5. In `Tools > Port` sl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTIzOTQxNiw1NjIyOTg1ODMsNzMwOT
+eyJoaXN0b3J5IjpbMTE5Mjc2MDQwMCw1NjIyOTg1ODMsNzMwOT
 k4MTE2XX0=
 -->

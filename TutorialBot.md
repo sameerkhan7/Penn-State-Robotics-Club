@@ -46,9 +46,13 @@ void setup() {
 ```
 `setup` is useful for running one time code that configures Arduino pins so we can do things like add an LED or attach a Servo motor. For example, if we want to configure one of the pins on the Arduino as an output, we would do that in setup.
 
-On the other hand, `loop` is where most of our program actually runs. Having a function that is continually called up to 117,000 times / second ([source](https://learn.sparkfun.com/blog/1687)) is really useful! 
+On the other hand, `loop` is where most of our program actually runs. Having a function that is continually called up to 117,000 times / second ([source](https://learn.sparkfun.com/blog/1687)) is really useful! We can do things like update a distance variable from our sensors or even use delays to slow down the program and toggle an LED.
+
+For example, the below code cycles an LED on and off after every 1 second.
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTcyMTg1MzQsLTE0MjAyODI3MTgsMT
+eyJoaXN0b3J5IjpbLTE3NzUwNDA5MjUsLTE0MjAyODI3MTgsMT
 k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
 ODA4LDk4NDkzMDE4NV19
 -->

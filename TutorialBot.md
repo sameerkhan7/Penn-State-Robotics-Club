@@ -48,11 +48,24 @@ void setup() {
 
 On the other hand, `loop` is where most of our program actually runs. Having a function that is continually called up to 117,000 times / second ([source](https://learn.sparkfun.com/blog/1687)) is really useful! We can do things like update a distance variable from our sensors or even use delays to slow down the program and toggle an LED.
 
+Putting it all together lets us a build an Arduino Sketch to do whatever we want!
+
 For example, the below code cycles an LED on and off after every 1 second.
 
-`
+```c
+int LED_PIN = 13;
+
+void setup() {
+	pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+	// Turn on the LED
+	digitalWrite
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzUwNDA5MjUsLTE0MjAyODI3MTgsMT
+eyJoaXN0b3J5IjpbLTE3NTYwMzc3OTgsLTE0MjAyODI3MTgsMT
 k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
 ODA4LDk4NDkzMDE4NV19
 -->

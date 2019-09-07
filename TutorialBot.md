@@ -17,7 +17,7 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 The first step is to download and install the Arduino IDE. IDE stands for integrated development environment and the program contains all the tools you need to develop, build, and install your program on the Arduino board. Download it [here](https://www.arduino.cc/en/main/software).
 
 ## Introduction to Basic Programming Logic with Arduinos
-Programming can look hard at first but we're going to keep it simple and avoid anything you don't need to build a simple robot. Let's look at some basics:
+Programming can look hard at first but we're going to keep it simple and avoid anything you don't need to build a simple robot. Let's look at the basics.
 
 ### What is a variable?
 A variable is a place to store a piece of data. It has a name, a value, and a type.
@@ -48,7 +48,7 @@ void setup() {
 
 On the other hand, `loop` is where most of our program actually runs. Having a function that is continually called up to 117,000 times / second ([source](https://learn.sparkfun.com/blog/1687)) is really useful! We can do things like update a distance variable from our sensors or even use delays to slow down the program and toggle an LED.
 
-Putting it all together lets us a build an Arduino Sketch to do whatever we want!
+Putting `setup` and `loop` together lets us a build an Arduino Sketch to do whatever we want!
 
 For example, the code below cycles an LED on and off after every 1 second.
 
@@ -75,7 +75,7 @@ void loop() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc0NzU4NjQsNjA5Mjc4NjA5LC0xND
-IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
-NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0Mj
+AyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0
+MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
 -->

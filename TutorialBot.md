@@ -16,8 +16,10 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 ## Setup the Arduino IDE
 The first step is to download and install the Arduino IDE. IDE stands for integrated development environment and the program contains all the tools you need to develop, build, and install your program on the Arduino board. Download it [here](https://www.arduino.cc/en/main/software).
 
-## Introduction to Basic Programming Logic with Arduinos
-Programming can look hard at first but we're going to keep it simple and avoid anything you don't need to build a simple robot. Let's look at the basics.
+## Introduction to Basic Programming with Arduino's
+Learning to program may seem like a daunting task, but we're going to keep it simple and avoid anything you don't need to build a simple robot. 
+
+Let's get into the basics!
 
 ### What is a variable?
 A variable is a place to store a piece of data. It has a name, a value, and a type.
@@ -83,7 +85,7 @@ Creates a variable that can hold any integer value called `LED_PIN` and sets it 
 pinMode(LED_PIN, OUTPUT);
 ```
 
-Tells the Arduino to configure pin LED_PIN as an output. Since, `LED_PIN = 13` pin #13 is set an output.
+Tells the Arduino to configure pin LED_PIN as an output. Since `LED_PIN = 13` pin #13 is set an output.
 
 The modes you can set for a digital pin are: 
 
@@ -94,7 +96,7 @@ FYI: Arduino's also have pins called Analog pins which can read or output voltag
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTE5NjE0NywxNTA1MzI4ODEzLDYwOT
-I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
-MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbODk4NDcxMzMyLDE1MDUzMjg4MTMsNjA5Mj
+c4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzcz
+LDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

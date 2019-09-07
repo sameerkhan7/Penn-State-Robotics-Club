@@ -13,11 +13,12 @@ The car that never crashes into a wall. Uses an ultrasonic distance sensor to dr
 - The Arduino IDE 
 - Robot materials from the club
 
-## Step 1: Setup the Arduino IDE
+## Setup the Arduino IDE
 The first step is to download and install the Arduino IDE. IDE stands for integrated development environment and the program contains all the tools you need to develop, build, and install your program on the Arduino board. Download it [here](https://www.arduino.cc/en/main/software).
 
-## Step 2: Introduction to Basic Programming Logic
+## Introduction to Basic Programming Logic
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4ND
+kzMDE4NV19
 -->

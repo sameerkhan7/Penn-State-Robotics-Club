@@ -107,8 +107,8 @@ Follow these directions to get going:
 3. Under `Tools > Board`, make sure `Arduino/Genuino Uno` is selected
 
 4. Connect your Arduino to your laptop
-5. In `Tools > Port` sl
+5. In `Tools > Port` select the port that you think is your Arduino. For windows it will say something like `COM{number}` on Mac it will look like `/dev/cu.{something}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Mjc2MDQwMCw1NjIyOTg1ODMsNzMwOT
+eyJoaXN0b3J5IjpbLTU1MTY2NTE2Myw1NjIyOTg1ODMsNzMwOT
 k4MTE2XX0=
 -->

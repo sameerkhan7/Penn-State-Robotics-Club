@@ -1,13 +1,13 @@
-## Introduction to Basic Programming with Arduino's
+# Introduction to Basic Programming with Arduino's
 Learning to program may seem like a daunting task, but we're going to keep it simple and avoid anything you don't need to build a simple robot. 
 
 Let's get into the basics!
 
-### What is a variable?
+## What is a variable?
 A variable is a place to store a piece of data. It has a name, a value, and a type.
 Learn how to create and use a variable on the Arduino [site](https://www.arduino.cc/en/Tutorial/Variables) before moving on.
 
-### Setup and Loop
+## Setup and Loop
 There are 2 important sections (functions) in the Arduino program (called a Sketch), `setup` and `loop`. 
 
 ```c
@@ -76,7 +76,7 @@ The modes you can set for a digital pin are:
  - `OUTPUT` - Allows the Arduino to output either a 5V "HIGH" voltage or 0V "LOW" voltage
  - `INPUT_PULLUP` - Ignore [this](https://www.arduino.cc/en/Tutorial/DigitalPins) for now
 
-Side Note: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V
+*Side Note: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V*
 
 ```c
 digitalWrite(LED_PIN, HIGH);
@@ -92,6 +92,10 @@ Tells the Arduino to pause and wait for 1000 milliseconds before moving on.
 digitalWrite(LED_PIN, LOW);
 ```
 Sets the LED_PIN to LOW (0V), this will disable power to the LED and turn it off.
+
+Phew that was a lot right? It gets easier from here trust us. Let's try and run the above code on our Arduino's now.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNDk5NDI5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTQzNzk3NDgwMiw3MzA5OTgxMTZdfQ==
 -->

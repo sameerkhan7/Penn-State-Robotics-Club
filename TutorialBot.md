@@ -85,17 +85,16 @@ pinMode(LED_PIN, OUTPUT);
 
 Tells the Arduino to configure pin LED_PIN as an output. Since, `LED_PIN = 13` pin #13 is set an output.
 
-The modes you can set for a pin are: 
+The modes you can set for a digital pin are: 
 
  - `INPUT` - Allows the Arduino to read either a 5V "HIGH" voltage or 0V "LOW" voltage
  - `OUTPUT` - Allows the Arduino to output either a 5V "HIGH" voltage or 0V "LOW" voltage
- - `INPUT_PULLUP`
 
-`INPUT`,
+FYI: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTcwMTE5MSwxNTA1MzI4ODEzLDYwOT
+eyJoaXN0b3J5IjpbLTQ5MTE5NjE0NywxNTA1MzI4ODEzLDYwOT
 I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
 MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

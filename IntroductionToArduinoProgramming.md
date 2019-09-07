@@ -57,7 +57,7 @@ void loop() {
 	delay(1000);
 }
 ```
-### LED Toggle Sketch Breakdown
+## LED Toggle Sketch Breakdown
 Let's go through the above code step-by-step and try to understand it.
 ```c
 int LED_PIN = 13;
@@ -95,7 +95,10 @@ Sets the LED_PIN to LOW (0V), this will disable power to the LED and turn it off
 
 Phew that was a lot right? It gets easier from here trust us. Let's try and run the above code on our Arduino's now.
 
+## Uploading a Sketch to an Arduino
+Once you've written your program wouldn't it be nice to actually run it?
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzk3NDgwMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTYyMjk4NTgzLDczMDk5ODExNl19
 -->

@@ -14,7 +14,7 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 - Robot materials from the club
 
 ## Setup the Arduino IDE
-The first step is to download and install the Arduino IDE. IDE stands for integrated development environment and the program contains all the tools you need to develop, build, and install your program on the Arduino board. Download it [here](https://www.arduino.cc/en/main/software).
+The first step is to download and install the Arduino IDE (Integrated Development Environment). The program contains all the tools you need to develop, build, and install your program on the Arduino board. Download it [here](https://www.arduino.cc/en/main/software).
 
 ## Introduction to Basic Programming with Arduino's
 Learning to program may seem like a daunting task, but we're going to keep it simple and avoid anything you don't need to build a simple robot. 
@@ -93,11 +93,11 @@ The modes you can set for a digital pin are:
  - `OUTPUT` - Allows the Arduino to output either a 5V "HIGH" voltage or 0V "LOW" voltage
  - `INPUT_PULLUP` - Ignore [this](https://www.arduino.cc/en/Tutorial/DigitalPins) for now
 
-FYI: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of ju
+FYI: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODk1ODcxNzEsMTUwNTMyODgxMyw2MD
-kyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3
-NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbLTYyMDU1NTEyNiwxNTA1MzI4ODEzLDYwOT
+I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
+MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

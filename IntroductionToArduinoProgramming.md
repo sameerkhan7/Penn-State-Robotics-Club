@@ -62,7 +62,7 @@ Let's go through the above code step-by-step and try to understand it.
 ```c
 int LED_PIN = 13;
 ```
-Creates a variable of type integer called `LED_PIN` and sets it equal to 13. Integers (int) can hold whole numbers positive or negative.
+Creates a variable of type `int` called `LED_PIN` and sets it equal to 13. Integers (int) can hold whole numbers either positive or negative.
 
 ```c
 pinMode(LED_PIN, OUTPUT);
@@ -76,7 +76,7 @@ The modes you can set for a digital pin are:
  - `OUTPUT` - Allows the Arduino to output either a 5V "HIGH" voltage or 0V "LOW" voltage
  - `INPUT_PULLUP` - Ignore [this](https://www.arduino.cc/en/Tutorial/DigitalPins) for now
 
-FYI: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V
+Side Note: Arduino's also have pins called Analog pins which can read or output voltages between 5V - 0V instead of just 5V or 0V
 
 ```c
 digitalWrite(LED_PIN, HIGH);
@@ -93,5 +93,5 @@ digitalWrite(LED_PIN, LOW);
 ```
 Sets the LED_PIN to LOW (0V), this will disable power to the LED and turn it off.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzQxMzAzOCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNTQwNDk5NDI5LDczMDk5ODExNl19
 -->

@@ -77,7 +77,7 @@ The modes you can set for a digital pin are:
  - `OUTPUT` - Allows the Arduino to output either a 5V "HIGH" voltage or 0V "LOW" voltage
  - `INPUT_PULLUP` - Ignore [this](https://www.arduino.cc/en/Tutorial/DigitalPins) for now
 
-*Side Note: If you need to read or ouput voltages inbetween 0V and 5V use *
+*Side Note: If you need to read a voltage value inbetween 0V and 5V like 3.3v use an analog pin*
 
 ```c
 digitalWrite(LED_PIN, HIGH);
@@ -110,5 +110,5 @@ Follow these directions to get going:
 4. Connect your Arduino to your laptop
 5. In `Tools > Port` select the port that you think is your Arduino. For windows it will say something like `COM{number}` on Mac it will look like `/dev/cu.{something}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE3ODU4NDYsMTAyMDA1OTE1NV19
+eyJoaXN0b3J5IjpbLTIxMzcyMjM5NTQsMTAyMDA1OTE1NV19
 -->

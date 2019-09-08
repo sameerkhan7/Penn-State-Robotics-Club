@@ -115,10 +115,10 @@ Follow these directions to get going:
 
 ## What now?
 
- - Learn basic 
+ - Learn basic logic and learn 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTkwMTA4MjgsLTE4NjA0MDQwMzMsLT
+eyJoaXN0b3J5IjpbLTE4NDkxNjExMzksLTE4NjA0MDQwMzMsLT
 E4OTM5Njc1NzcsLTIwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMjAw
 NTkxNTVdfQ==
 -->

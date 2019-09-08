@@ -25,14 +25,17 @@ Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/ard
 Now that everything's wired up, lets get coding!!!
 
 ## Writing the program
+First import the NewPing library
+```c
 
+```
 
 
 ## Writing the Sketch
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTYyNDEzNCwtMTM1MjgwMDM5MywtMj
-EwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5
-NTYyNV19
+eyJoaXN0b3J5IjpbLTE1NDA5NTcyNzIsMTQ1MTYyNDEzNCwtMT
+M1MjgwMDM5MywtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0
+MDQxODA1LDgxNzg5NTYyNV19
 -->

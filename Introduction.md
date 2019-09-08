@@ -115,10 +115,10 @@ Follow these directions to get going:
 
 ## What now?
 
- - Learn basic logic and learn 
+ - Learn basic logic with a distance sensor!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkxNjExMzksLTE4NjA0MDQwMzMsLT
-E4OTM5Njc1NzcsLTIwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMjAw
-NTkxNTVdfQ==
+eyJoaXN0b3J5IjpbNzQ5OTkxNjU3LC0xODQ5MTYxMTM5LC0xOD
+YwNDA0MDMzLC0xODkzOTY3NTc3LC0yMDY0MTk0NTIxLDQ3NTcy
+NDY4OCwxMDIwMDU5MTU1XX0=
 -->

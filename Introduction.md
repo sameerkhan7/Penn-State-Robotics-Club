@@ -13,11 +13,11 @@ There are 2 important sections (functions) in the Arduino program (called a Sket
 
 ```c
 void setup() {
-  // Some code goes here
+    // Some code goes here
 }
 
 void loop() {
-  // Some other code goes here
+    // Some other code goes here
 }
 ```
 
@@ -26,7 +26,7 @@ The `setup` function runs once when the Arduino first turns on. When the `setup`
 **Why do we need setup and loop?**
 ```c
 void setup() {
-	pinMode(13, OUTPUT);
+    pinMode(13, OUTPUT);
 }
 ```
 `setup` is useful for running one time code that configures Arduino pins so we can do things like add an LED or attach a Servo motor. For example, if we want to configure one of the pins on the Arduino as an output, we would do that in setup.
@@ -43,8 +43,8 @@ For example, the code below cycles an LED on and off after every 1 second. Don't
 int LED_PIN = 13;
 
 void setup() {
-	// Set the LED_PIN as an OUTPUT
-	pinMode(LED_PIN, OUTPUT);
+    // Set the LED_PIN as an OUTPUT
+    pinMode(LED_PIN, OUTPUT);
 }
 
 void loop() {
@@ -55,7 +55,7 @@ void loop() {
 	// Turn off the LED
 	digitalWrite(LED_PIN, LOW);
 	// Wait 1000ms = 1s
-	delay(1000);
+    delay(1000);
 }
 ```
 ## LED Toggle Sketch Breakdown
@@ -116,6 +116,6 @@ Follow these directions to get going:
 ## What now?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMj
-AwNTkxNTVdfQ==
+eyJoaXN0b3J5IjpbLTE4OTM5Njc1NzcsLTIwNjQxOTQ1MjEsND
+c1NzI0Njg4LDEwMjAwNTkxNTVdfQ==
 -->

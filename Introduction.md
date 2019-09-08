@@ -48,13 +48,13 @@ void setup() {
 }
 
 void loop() {
-	// Turn on the LED
-	digitalWrite(LED_PIN, HIGH);
-	// Wait 1000ms = 1s
-	delay(1000);
-	// Turn off the LED
-	digitalWrite(LED_PIN, LOW);
-	// Wait 1000ms = 1s
+    // Turn on the LED
+    digitalWrite(LED_PIN, HIGH);
+    // Wait 1000ms = 1s
+    delay(1000);
+    // Turn off the LED
+    digitalWrite(LED_PIN, LOW);
+    // Wait 1000ms = 1s
     delay(1000);
 }
 ```
@@ -116,6 +116,6 @@ Follow these directions to get going:
 ## What now?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM5Njc1NzcsLTIwNjQxOTQ1MjEsND
-c1NzI0Njg4LDEwMjAwNTkxNTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NjA0MDQwMzMsLTE4OTM5Njc1NzcsLT
+IwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMjAwNTkxNTVdfQ==
 -->

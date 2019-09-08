@@ -25,9 +25,9 @@ Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/ard
 Now that everything's wired up, lets get coding!!!
 
 ## Writing the program
-First import the NewPing library
+First import the NewPing library, this gives us access to our libraries
 ```c
-
+#include <NewPing.h>
 ```
 
 
@@ -35,7 +35,7 @@ First import the NewPing library
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA5NTcyNzIsMTQ1MTYyNDEzNCwtMT
-M1MjgwMDM5MywtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0
-MDQxODA1LDgxNzg5NTYyNV19
+eyJoaXN0b3J5IjpbLTQ4Njc1NjQxLDE0NTE2MjQxMzQsLTEzNT
+I4MDAzOTMsLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0
+MTgwNSw4MTc4OTU2MjVdfQ==
 -->

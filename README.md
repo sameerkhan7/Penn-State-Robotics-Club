@@ -10,6 +10,7 @@ Whether you're a new or returning member there's always something to learn.
 Learn the basics of Arduino programming
 
 ### Reading distances
+
 Learn how to measure distances with an Ultrasonic sensor 
 
 ### TutorialBot - The Wall Detecting Car
@@ -21,7 +22,7 @@ The car that never crashes into a wall. Uses an ultrasonic distance sensor to dr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA1MTk3NCwtMTA4MTYxNDgzOCwxMT
-gxOTI5NjAyLDE1NDUzMDQ1OCwtMjAyMzA3MDU1LDE1NDgxMzk5
-NjEsLTE0MDU0OTcxMzhdfQ==
+eyJoaXN0b3J5IjpbLTIwNTc3NzczNjgsLTE2NjA1MTk3NCwtMT
+A4MTYxNDgzOCwxMTgxOTI5NjAyLDE1NDUzMDQ1OCwtMjAyMzA3
+MDU1LDE1NDgxMzk5NjEsLTE0MDU0OTcxMzhdfQ==
 -->

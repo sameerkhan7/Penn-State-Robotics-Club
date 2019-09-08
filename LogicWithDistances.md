@@ -4,8 +4,9 @@ Let's learn some basic logic by working through a robot that will turn on an LED
 
 ## Importing the NewPing Library
 In order to use our distance sensor we need to import the NewPing library. 
-Under `Sketch > Include Library > Manage Libraries`
+
+Under `Sketch > Include Library > Manage Libraries` search for the NewPing library
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMT
-E2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbMTg0NzI3NzgzNiwtMjEwMzI1ODMyOSwtMT
+k3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
 -->

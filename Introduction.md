@@ -115,7 +115,10 @@ Follow these directions to get going:
 
 ## What now?
 
+ - Learn basic 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA0MDQwMzMsLTE4OTM5Njc1NzcsLT
-IwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMjAwNTkxNTVdfQ==
+eyJoaXN0b3J5IjpbLTEwOTkwMTA4MjgsLTE4NjA0MDQwMzMsLT
+E4OTM5Njc1NzcsLTIwNjQxOTQ1MjEsNDc1NzI0Njg4LDEwMjAw
+NTkxNTVdfQ==
 -->

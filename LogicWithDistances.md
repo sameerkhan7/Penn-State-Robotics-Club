@@ -14,8 +14,9 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 Let's first connect our sensor to the Arduino.
 Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)):
 
-
+![Wiring Ultrasonic](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/wiring_ultrasonic.png)
+Connect `Trig` from the Ultrasonic to ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIzODU3ODMsLTIxMDMyNTgzMjksLT
+eyJoaXN0b3J5IjpbLTE3NzI2Njc3MTEsLTIxMDMyNTgzMjksLT
 E5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
 -->

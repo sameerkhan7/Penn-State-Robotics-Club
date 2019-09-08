@@ -15,8 +15,10 @@ Let's first connect our sensor to the Arduino.
 Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)):
 
 ![Wiring Ultrasonic](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/wiring_ultrasonic.png)
-Connect `Trig` from the Ultrasonic to ``
+Connect `Trig` from the Ultrasonic to `port 9`
+Connect 'Echo' from the Ultrasonic to `port 10`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI2Njc3MTEsLTIxMDMyNTgzMjksLT
-E5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbMTAwOTc1MTg1OCwtMjEwMzI1ODMyOSwtMT
+k3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
 -->

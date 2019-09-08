@@ -16,9 +16,9 @@ Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/ard
 
 ![Wiring Ultrasonic](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/wiring_ultrasonic.png)
 Connect `Trig` from the Ultrasonic to `port 9`
-Connect 'Echo' from the Ultrasonic to `port 10`
-
+Connect `Echo` from the Ultrasonic to `port 10`
+Connect `GND` from Ultrasonic to 'GND' on the arduino
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTc1MTg1OCwtMjEwMzI1ODMyOSwtMT
+eyJoaXN0b3J5IjpbLTU0NjQ0NDM2NSwtMjEwMzI1ODMyOSwtMT
 k3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
 -->

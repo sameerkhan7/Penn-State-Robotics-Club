@@ -19,11 +19,17 @@ Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/ard
  - Connect `Trig` from the Ultrasonic to `port 9` 
  - Connect `Echo` from
    the Ultrasonic to `port 10` 
-  - Connect `GND` from Ultrasonic to 'GND' on
+  - Connect `GND` from Ultrasonic to `GND` on
    the Arduino 
-  - Connect `VCC` from Ultrasonic to '5V' on the Arduino
+  - Connect `VCC` from Ultrasonic to `5V` on the Arduino
+
+Now that everything's wired up, lets get coding!!!
+
+## Writing the Sketch
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI4MDAzOTMsLTIxMDMyNTgzMjksLT
-E5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTE4NzE4OTk0NDcsLTEzNTI4MDAzOTMsLT
+IxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4
+OTU2MjVdfQ==
 -->

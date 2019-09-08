@@ -1,5 +1,5 @@
-# Reading Distances
+# Logic with Distance Sensors
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
 -->

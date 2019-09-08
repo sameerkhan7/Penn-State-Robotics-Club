@@ -11,9 +11,11 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 
 ## Writing the program
 ### Setting up the Ultrasonic sensor
-Let's f
+Let's first connect our sensor to the Arduino.
+Here's a diagram to follow:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzOTIxNjQ5LC0yMTAzMjU4MzI5LC0xOT
-c4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbMTc4NTY5MDM1MywtMjEwMzI1ODMyOSwtMT
+k3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
 -->

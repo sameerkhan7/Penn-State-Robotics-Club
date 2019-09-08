@@ -10,8 +10,10 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 ![Installing NewPing](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/install_newping.png)
 
 ## Writing the program
-**Setup the **
+### Setting up the Ultrasonic sensor
+Let's f
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjE2MzgzMSwtMjEwMzI1ODMyOSwtMT
-k3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
+eyJoaXN0b3J5IjpbNjEzOTIxNjQ5LC0yMTAzMjU4MzI5LC0xOT
+c4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
 -->

@@ -9,9 +9,9 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 
 ![Installing NewPing](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/install_newping.png)
 
-
-
+## Writing the program
+**Setup the **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI4NTgxMTgsLTIxMDMyNTgzMjksLT
-E5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbMTU2MjE2MzgzMSwtMjEwMzI1ODMyOSwtMT
+k3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
 -->

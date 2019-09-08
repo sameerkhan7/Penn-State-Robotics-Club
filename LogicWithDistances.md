@@ -2,9 +2,10 @@
 
 Let's learn some basic logic by working through a robot that will turn on an LED if it's ultrasonic sensor detects something in front of it.
 
-## Importing a Library
-
+## Importing the NewPing Library
+In order to use our distance sensor we need to import the NewPing library. 
+Under `Sketch > Include Library > Manage Libraries`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMTE2NjM0LC0xOTc4MDQ4ODU1LDExNj
-QwNDE4MDUsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMT
+E2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
 -->

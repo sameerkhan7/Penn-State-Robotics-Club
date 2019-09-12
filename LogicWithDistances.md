@@ -46,11 +46,21 @@ NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 ```
 
 ## Reading distances
-In order to keep track of our distance in the program we should create a variable for it!
+In order to keep track of our distance in the program we should create a variable for it.
+```c
+int distance = 0;
+```
+
+Now in the loop function let's get the distance and store it into our distance variable.
+```c
+void loop() {
+	
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTA1NTEzLDExOTk1Njc4MjksLTQ4Nj
-c1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgz
-MjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTQyMTM4NjQ4MiwxMTk5NTY3ODI5LC00OD
+Y3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4
+MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX
+0=
 -->

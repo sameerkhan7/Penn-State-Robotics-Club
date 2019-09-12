@@ -30,10 +30,14 @@ First import the NewPing library, this gives us access to  the library we just i
 #include <NewPing.h>
 ```
 
-Now 
+Now define the pins that we connected above
+```c
+const int 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTU2NzgyOSwtNDg2NzU2NDEsMTQ1MT
-YyNDEzNCwtMTM1MjgwMDM5MywtMjEwMzI1ODMyOSwtMTk3ODA0
-ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
+eyJoaXN0b3J5IjpbLTE4MDkwMDk0NDUsMTE5OTU2NzgyOSwtND
+g2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5MywtMjEwMzI1
+ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV
+19
 -->

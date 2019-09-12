@@ -46,10 +46,11 @@ NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 ```
 
 ## Reading distances
-In order to keep track of our distance in the prog
+In order to keep track of our distance in the program we should create a variable for it!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIxNTAwMjgsMTE5OTU2NzgyOSwtND
-g2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5MywtMjEwMzI1
-ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV
-19
+eyJoaXN0b3J5IjpbMTIxMTI4MTcwOSwxMTk5NTY3ODI5LC00OD
+Y3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4
+MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX
+0=
 -->

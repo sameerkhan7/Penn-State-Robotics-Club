@@ -45,11 +45,6 @@ Now let's create the NewPing object that we can use to get distance values. 200 
 NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 ```
 
-## The Serial Monitor
-
-
-```
-
 ## Reading distances
 In order to keep track of our distance in the program we should create a variable for it.
 ```c
@@ -63,9 +58,24 @@ void loop() {
 }
 ```
 
+### Printing the distance
+We can use the serial monitor to print out values from our program. Add this line to `setup`
+```c
+void setup() {
+	// ...
+	Serial.begin(9600);
+	// ...
+}
+```
+Now we can use Serial to prin t
+```c
+void loop() {
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTE1Mzc4OCwxNTU4OTgwNDA2LDExOT
-k1Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAz
-OTMsLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNS
-w4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTE5MDAyNjIxMjAsMTU1ODk4MDQwNiwxMT
+k5NTY3ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAw
+MzkzLC0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MD
+UsODE3ODk1NjI1XX0=
 -->

@@ -67,15 +67,16 @@ void setup() {
 	// ...
 }
 ```
-Now we can use Serial to prin t
+Now we can use Serial to print the distance.
 ```c
 void loop() {
-
+	distance = sonarSensor.ping_cm();
+	Serial.println("Sonar distance: " + distance);
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAyNjIxMjAsMTU1ODk4MDQwNiwxMT
-k5NTY3ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAw
-MzkzLC0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MD
-UsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbNDQzMzE0MTcxLDE1NTg5ODA0MDYsMTE5OT
+U2NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5
+MywtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LD
+gxNzg5NTYyNV19
 -->

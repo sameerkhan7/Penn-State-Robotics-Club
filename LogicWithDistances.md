@@ -27,7 +27,7 @@ Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/ard
 
 Now that everything's wired up, lets get coding!!!
 
-## Writing the program
+## Setting up the ultrasonic sensor
 First import the NewPing library, this gives us access to  the library we just installed
 ```c
 #include <NewPing.h>
@@ -35,18 +35,21 @@ First import the NewPing library, this gives us access to  the library we just i
 
 Now define the pins that we connected above
 ```c
-const int ultrasonicTrig = 9;
-const int ultrasonicEcho = 10;
+const int sonarTrig = 9;
+const int sonarEcho = 10;
 ```
 
 Now let's create the Sonar object that we can use to get distance values
 
 ```c
+NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 ```
 
+## 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjQ0NzQ1OCwxMTk5NTY3ODI5LC00OD
-Y3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4
-MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX
-0=
+eyJoaXN0b3J5IjpbODc4NDk3NDk3LDExOTk1Njc4MjksLTQ4Nj
+c1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgz
+MjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ
+==
 -->

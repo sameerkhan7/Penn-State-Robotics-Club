@@ -39,10 +39,13 @@ const int ultrasonicTrig = 9;
 const int ultrasonicEcho = 10;
 ```
 
-Then finally let's create the Sona
+Now let's create the Sonar object that we can use to get distance values
+
+```c
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODEzOTI0MiwxMTk5NTY3ODI5LC00OD
+eyJoaXN0b3J5IjpbLTYyNjQ0NzQ1OCwxMTk5NTY3ODI5LC00OD
 Y3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4
 MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX
 0=

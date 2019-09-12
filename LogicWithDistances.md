@@ -39,17 +39,17 @@ const int sonarTrig = 9;
 const int sonarEcho = 10;
 ```
 
-Now let's create the Sonar object that we can use to get distance values
+Now let's create the NewPing object that we can use to get distance values. 200 is used as the max distance here, if the sonar reads something over 200cm it will return 0.
 
 ```c
 NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 ```
 
-## 
-
+## Reading distances
+In order to keep track of our distance in the prog
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4NDk3NDk3LDExOTk1Njc4MjksLTQ4Nj
-c1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgz
-MjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTE5NTIxNTAwMjgsMTE5OTU2NzgyOSwtND
+g2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5MywtMjEwMzI1
+ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV
+19
 -->

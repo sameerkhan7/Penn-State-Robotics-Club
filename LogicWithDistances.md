@@ -9,7 +9,8 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 
 ![Installing NewPing](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/install_newping.png)
 
-## What is an ultrasonic 
+## What is ultrasonic sonar?
+An ultrasonic sensor uses high frequency sound to measure distance. 
 
 ## Setting up the Ultrasonic sensor
 Let's first connect our sensor to the Arduino.
@@ -41,7 +42,7 @@ const int ultrasonicEcho = 10;
 Then finally let's create the Sona
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTkyNjk0OCwxMTk5NTY3ODI5LC00OD
+eyJoaXN0b3J5IjpbMTU1MDEwMTc5MSwxMTk5NTY3ODI5LC00OD
 Y3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4
 MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX
 0=

@@ -10,8 +10,8 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 ![Installing NewPing](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/install_newping.png)
 
 ## What is ultrasonic sonar?
-An ultrasonic sensor uses high frequency sound to measure distance. By pinging a burst of sound and listening for the echo when it bounces off of an object, it can calculate the distance!
-Read more about it on a Carnegie Mellon article [here](http://cmra.rec.ri.cmu.edu/content/electronics/boe/ultrasonic_sensor/1.html).
+An ultrasonic sensor uses high frequency sound to measure distance. By pinging a burst of sound at an object and measuring the time it takes for the echo to be detected, we can calculate the distance. 
+Read more about in detail [here](http://cmra.rec.ri.cmu.edu/content/electronics/boe/ultrasonic_sensor/1.html).
 ## Setting up the Ultrasonic sensor
 Let's first connect our sensor to the Arduino.
 Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)):
@@ -49,8 +49,8 @@ NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 In order to keep track of our distance in the program we should create a variable for it!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTI4MTcwOSwxMTk5NTY3ODI5LC00OD
-Y3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4
-MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX
-0=
+eyJoaXN0b3J5IjpbMTQ3NTA1NTEzLDExOTk1Njc4MjksLTQ4Nj
+c1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgz
+MjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ
+==
 -->

@@ -75,11 +75,11 @@ void loop() {
 }
 ```
 
-Run the program and open up the serial monitor by clicking this button:
+Upload and run the program on the arduino, then cl
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMyMzQwODAsMTU1ODk4MDQwNiwxMT
-k5NTY3ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAw
-MzkzLC0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MD
-UsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbMTY3ODQ1NTA1MCwtMjEyMzIzNDA4MCwxNT
+U4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQx
+MzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMjksLTE5NzgwNDg4NT
+UsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
 -->

@@ -75,11 +75,12 @@ void loop() {
 }
 ```
 
-Upload and run the program on the arduino, then cl
+Upload and run the program on the arduino, then click here to open the monitor:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODQ1NTA1MCwtMjEyMzIzNDA4MCwxNT
-U4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQx
-MzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMjksLTE5NzgwNDg4NT
-UsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTE3NzI2ODMwMjEsLTIxMjMyMzQwODAsMT
+U1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3NTY0MSwxNDUxNjI0
+MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4MzI5LC0xOTc4MDQ4OD
+U1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
 -->

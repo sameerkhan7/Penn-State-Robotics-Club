@@ -74,8 +74,10 @@ void loop() {
 	Serial.println("Sonar distance: " + String(distance));
 }
 ```
+
+Run the program and open up the serial monitor here
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mzc0NDA0NSwxNTU4OTgwNDA2LDExOT
+eyJoaXN0b3J5IjpbMTczMTQ4NjY5OCwxNTU4OTgwNDA2LDExOT
 k1Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAz
 OTMsLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNS
 w4MTc4OTU2MjVdfQ==

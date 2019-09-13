@@ -122,29 +122,35 @@ void setup() {
 We can use an if statement to run code if a condition is met and an else statement to run code otherwise.  Read more about them [here](https://www.arduino.cc/en/Tutorial/ifStatementConditional). The basic syntax is:
 ```c
 if (someCondition) {
-	// If the condition is true run the code inside these brackets
+	// If someCondition is true run the code inside these brackets
 }
 ```
-If with an else
+If with an else:
 ```c
 if (someCondition) {
 	// If someCondition is true run the code inside these brackets
 } else {
-	// If the condition is false run the code inside these brackets
+	// If someCondition is false run the code inside these brackets
 }
 ```
-Here's an else-if where you check a second condition if the first condition is false
+Here's an else-if where you check a second condition if the first condition is false:
 ```c
 if (someCondition) {
-	// If someCondition is true run the code inside these brackets
+	// If someCondition is true run the code inside these brackets.
 } else if (someOtherCondition) {
-	// If the condition is false run the code inside these brackets
+	// If the someCondition is false and someOtherCondition is true
+	// run the code inside these brackets.
 }
 ```
+
+### Updating the led
+Let's use the if-else statements to turn the led off and on if the distance is less than 10:
+```c
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNzY5NzM0LC02MjI3MjUxOTIsLTE3Nz
-I2ODMwMjEsLTIxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3
-ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC
-0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3
-ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbLTY4ODY3Nzg4MSwtNjIyNzI1MTkyLC0xNz
+cyNjgzMDIxLC0yMTIzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2
+NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5My
+wtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgx
+Nzg5NTYyNV19
 -->

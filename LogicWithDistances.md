@@ -9,10 +9,10 @@ Under `Sketch > Include Library > Manage Libraries` search for the NewPing libra
 
 ![Installing NewPing](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/install_newping.png)
 
-## What is ultrasonic sonar?
+## What is an ultrasonic sonar?
 An ultrasonic sensor uses high frequency sound to measure distance. By pinging a burst of sound at an object and measuring the time it takes for the echo to be detected, we can calculate the distance. 
 Read more about in detail [here](http://cmra.rec.ri.cmu.edu/content/electronics/boe/ultrasonic_sensor/1.html).
-## Setting up the Ultrasonic sensor
+## Setting up the ultrasonic sensor
 Let's first connect our sensor to the Arduino.
 Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/)):
 
@@ -27,7 +27,7 @@ Here's a diagram to follow ([source](https://howtomechatronics.com/tutorials/ard
 
 Now that everything's wired up, lets get coding!!!
 
-## Setting up the ultrasonic sensor
+## Ultrasonic code setup
 First import the NewPing library, this gives us access to  the library we just installed
 ```c
 #include <NewPing.h>
@@ -75,10 +75,11 @@ void loop() {
 }
 ```
 
-Run the program and open up the serial monitor here
+Run the program and open up the serial monitor by clicking this button:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTQ4NjY5OCwxNTU4OTgwNDA2LDExOT
-k1Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAz
-OTMsLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNS
-w4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTIxMjMyMzQwODAsMTU1ODk4MDQwNiwxMT
+k5NTY3ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAw
+MzkzLC0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MD
+UsODE3ODk1NjI1XX0=
 -->

@@ -146,9 +146,24 @@ if (someCondition) {
 ### Updating the led
 Let's use the if-else statements to turn the led off and on if the distance is less than 10:
 ```c
+void loop() {
+	distance = sonarSensor.ping_cm();
+	Serial.println("Sonar distance: " + String(distance));
 
+	// New if-else statement
+	if (distance < 10) {
+		// Turn on the LED 
+		digitalWrite(LED_PIN, HIGH);
+	} else {
+		// Turn off the LED
+		digitalWrite(LED_PIN, LOW);
+	}
+
+	delay(30);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODY3Nzg4MSwtNjIyNzI1MTkyLC0xNz
+eyJoaXN0b3J5IjpbLTkwMDAzMjU4MiwtNjIyNzI1MTkyLC0xNz
 cyNjgzMDIxLC0yMTIzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2
 NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5My
 wtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgx

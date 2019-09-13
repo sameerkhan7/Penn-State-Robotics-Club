@@ -3,11 +3,10 @@
 Let's learn some basic logic by working through a robot that will turn on an LED if it's ultrasonic sensor detects something in front of it. 
 
 **What you will learn**:
-- How to import  libraries
-- How to use an ultrasonic distance sensor 
+- Importing libraries
+- Ultrasonic distance sensors
 - Printing values and viewing them with the serial monitor
 - Control structures: The if-else statement
-- 
 
 ## Importing the NewPing Library
 In order to use our distance sensor we need to import the NewPing library. 
@@ -175,7 +174,7 @@ void loop() {
 ```
 Run the program and try it out! Try messing with the condition in the if statement and see what happens.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzI1NDU3MSwtNjIyNzI1MTkyLC0xNz
+eyJoaXN0b3J5IjpbLTk1MjkyNjIwMSwtNjIyNzI1MTkyLC0xNz
 cyNjgzMDIxLC0yMTIzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2
 NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5My
 wtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgx

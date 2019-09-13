@@ -75,12 +75,18 @@ void loop() {
 }
 ```
 
-Upload and run the program on the arduino, then click here to open the monitor:
+Here's the completed code for reference:
+```c
+```
 
+Upload and run the program on the Arduino, then click on the search icon to open the monitor:
+
+![Opening the serial monitor](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/open_serial_monitor.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI2ODMwMjEsLTIxMjMyMzQwODAsMT
-U1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3NTY0MSwxNDUxNjI0
-MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4MzI5LC0xOTc4MDQ4OD
-U1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbLTE1MzY4Nzg4MDYsLTE3NzI2ODMwMjEsLT
+IxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3
+NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4Mz
+I5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
+
 -->

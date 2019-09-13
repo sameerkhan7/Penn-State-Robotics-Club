@@ -74,6 +74,7 @@ Now we can use Serial to print the distance.
 void loop() {
 	distance = sonarSensor.ping_cm();
 	Serial.println("Sonar distance: " + String(distance));
+	delay(30);
 }
 ```
 
@@ -94,16 +95,19 @@ void setup() {
 void loop() {
 	distance = sonarSensor.ping_cm();
 	Serial.println("Sonar distance: " + String(distance));
+	delay(30);
 }
 ```
 
 Upload and run the program on the Arduino, then click on the search icon to open the monitor:
 
 ![Opening the serial monitor](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/open_serial_monitor.png)
-You should see your distances being spammed into the monitor.
+You should see your distances being spammed into the monitor!
 
+## Basic logic with If statements
+Let's add some more functionality to our robot. Using the code from the [previous](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md) tutorial
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ4NTU3MzIsLTE3NzI2ODMwMjEsLT
+eyJoaXN0b3J5IjpbLTE5OTAyMzc2MjYsLTE3NzI2ODMwMjEsLT
 IxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3
 NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4Mz
 I5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=

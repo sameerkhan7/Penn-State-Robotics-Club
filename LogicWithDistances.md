@@ -117,15 +117,17 @@ void setup() {
 }
 ```
 
-### The If statement
-We can use an if statement to run code if a condition is met. The basic syntax is:
+### The if and else statement
+We can use an if statement to run code if a condition is met and else to run code otherwise. The basic syntax is:
 ```c
 if (`some condition goes here`) {
-	// If 
+	// If the condition is true run the code inside these brackets
+} else {
+	// If the condition is false run the code inside these brackets
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTAxNjM3MiwtMTc3MjY4MzAyMSwtMj
+eyJoaXN0b3J5IjpbLTYyMjcyNTE5MiwtMTc3MjY4MzAyMSwtMj
 EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
 NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
 ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==

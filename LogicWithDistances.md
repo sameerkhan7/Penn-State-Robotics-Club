@@ -103,8 +103,9 @@ void setup() {
 void loop() {
 	// Get the distance from the sensor
 	distance = sonarSensor.ping_cm();
-	// Print the value to the Serial Monit
+	// Print the value to the Serial Monitor
 	Serial.println("Sonar distance: " + String(distance));
+	// Short delay to prevent ping interference
 	delay(30);
 }
 ```
@@ -154,7 +155,7 @@ if (someCondition) {
 ```
 
 ### Updating the led
-Let's use the if-else statements to turn the led off and on if the distance is less than 10:
+Let's use the if-else statement to turn the led on if the distance is less than 10 and off if not:
 ```c
 void loop() {
 	distance = sonarSensor.ping_cm();
@@ -162,10 +163,10 @@ void loop() {
 
 	// New if-else statement
 	if (distance < 10) {
-		// Turn on the LED 
+		// Turn on the LED, if the distance is < 10cm
 		digitalWrite(LED_PIN, HIGH);
 	} else {
-		// Turn off the LED
+		// Turn off the LED, if the distance is not < 10cm
 		digitalWrite(LED_PIN, LOW);
 	}
 
@@ -174,9 +175,9 @@ void loop() {
 ```
 Run the program and try it out! Try messing with the condition in the if statement and see what happens.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyNjM5NTc0LC02MjI3MjUxOTIsLTE3Nz
-I2ODMwMjEsLTIxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3
-ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC
-0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3
-ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbMjAwNzI1NDU3MSwtNjIyNzI1MTkyLC0xNz
+cyNjgzMDIxLC0yMTIzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2
+NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5My
+wtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgx
+Nzg5NTYyNV19
 -->

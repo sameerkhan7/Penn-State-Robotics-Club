@@ -119,18 +119,24 @@ void setup() {
 ```
 
 ### The if and else statement
-We can use an if statement to run code if a condition is met and an else statement to run code otherwise. The basic syntax is:
+We can use an if statement to run code if a condition is met and an else statement to run code otherwise.  Read more about them [here](https://www.arduino.cc/en/Tutorial/ifStatementConditional). The basic syntax is:
 ```c
-if (`some condition goes here`) {
+if (someCondition) {
+	// If the condition is true run the code inside these brackets
+}
+```
+If with an else
+```c
+if (someCondition) {
 	// If the condition is true run the code inside these brackets
 } else {
 	// If the condition is false run the code inside these brackets
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDEzODk3NTUsLTYyMjcyNTE5MiwtMT
-c3MjY4MzAyMSwtMjEyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1
-Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOT
-MsLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4
-MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbMTc4NTA1MzkzLC02MjI3MjUxOTIsLTE3Nz
+I2ODMwMjEsLTIxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3
+ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC
+0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3
+ODk1NjI1XX0=
 -->

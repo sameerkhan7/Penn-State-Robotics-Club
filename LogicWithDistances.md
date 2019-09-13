@@ -6,7 +6,8 @@ Let's learn some basic logic by working through a robot that will turn on an LED
 - How to import  libraries
 - How to use an ultrasonic distance sensor 
 - Printing values and viewing them with the serial monitor
-- The if-else statem
+- Control structures: The if-else statement
+- 
 
 ## Importing the NewPing Library
 In order to use our distance sensor we need to import the NewPing library. 
@@ -95,11 +96,14 @@ NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 int distance = 0;
 
 void setup() {
+	// Startup the Serial communication for the Serial Monitor
 	Serial.begin(9600);
 }
 
 void loop() {
+	// Get the distance from the sensor
 	distance = sonarSensor.ping_cm();
+	// Print the value to the Serial Monit
 	Serial.println("Sonar distance: " + String(distance));
 	delay(30);
 }
@@ -170,9 +174,9 @@ void loop() {
 ```
 Run the program and try it out! Try messing with the condition in the if statement and see what happens.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzU4Mzc1MCwtNjIyNzI1MTkyLC0xNz
-cyNjgzMDIxLC0yMTIzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2
-NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5My
-wtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgx
-Nzg5NTYyNV19
+eyJoaXN0b3J5IjpbNzUyNjM5NTc0LC02MjI3MjUxOTIsLTE3Nz
+I2ODMwMjEsLTIxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3
+ODI5LC00ODY3NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC
+0yMTAzMjU4MzI5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3
+ODk1NjI1XX0=
 -->

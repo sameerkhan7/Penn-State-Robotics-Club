@@ -77,6 +77,22 @@ void loop() {
 
 Here's the completed code for reference:
 ```c
+#include <NewPing.h>
+
+const int sonarTrig = 9;
+const int sonarEcho = 10;
+NewPing sonarSensor(sonarTrig, sonarEcho, 200);
+
+int distance = 0;
+
+void setup() {
+	Serial.begin(9600);
+}
+
+void loop() {
+	distance = sonarSensor.ping_cm();
+	Serial.println("Sonar distance: " + String(distance));
+}
 ```
 
 Upload and run the program on the Arduino, then click on the search icon to open the monitor:
@@ -84,9 +100,9 @@ Upload and run the program on the Arduino, then click on the search icon to open
 ![Opening the serial monitor](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/open_serial_monitor.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzY4Nzg4MDYsLTE3NzI2ODMwMjEsLT
-IxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3
-NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4Mz
-I5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbMTkwNDM5NjA5MiwtMTc3MjY4MzAyMSwtMj
+EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
+NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
+ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
 
 -->

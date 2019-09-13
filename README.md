@@ -4,17 +4,17 @@
 Whether you're a new or returning member there's always something to learn.
 
 ## Tutorials
-### Introduction to Arduino Programming
+### 1. Introduction to Arduino Programming
 [Introduction.md](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md)
 
 Learn the basics of Arduino programming
 
-### Logic with Distance Sensors
+### 2. Logic with Distance Sensors
 [LogicWithDistances.md](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/LogicWithDistances.md)
 
 Learn how to measure distances with an Ultrasonic sensor 
 
-### TutorialBot - The Wall Detecting Car
+### 3. TutorialBot - The Wall Detecting Car
 
 [TutorialBot.md](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/TutorialBot.md)
 
@@ -23,8 +23,8 @@ The car that never crashes into a wall. Uses an ultrasonic distance sensor to dr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ4MjE5NzcsLTk0Mzc3MDIzNCwtMj
-A1Nzc3NzM2OCwtMTY2MDUxOTc0LC0xMDgxNjE0ODM4LDExODE5
-Mjk2MDIsMTU0NTMwNDU4LC0yMDIzMDcwNTUsMTU0ODEzOTk2MS
-wtMTQwNTQ5NzEzOF19
+eyJoaXN0b3J5IjpbMTEyOTg0Nzk4MSwtOTQzNzcwMjM0LC0yMD
+U3Nzc3MzY4LC0xNjYwNTE5NzQsLTEwODE2MTQ4MzgsMTE4MTky
+OTYwMiwxNTQ1MzA0NTgsLTIwMjMwNzA1NSwxNTQ4MTM5OTYxLC
+0xNDA1NDk3MTM4XX0=
 -->

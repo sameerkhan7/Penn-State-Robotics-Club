@@ -162,8 +162,9 @@ void loop() {
 	delay(30);
 }
 ```
+Run the program and try it out! Try messing with the condition in the if statement and see what happens.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDAzMjU4MiwtNjIyNzI1MTkyLC0xNz
+eyJoaXN0b3J5IjpbMTQzNjcwNjQ5MiwtNjIyNzI1MTkyLC0xNz
 cyNjgzMDIxLC0yMTIzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2
 NzgyOSwtNDg2NzU2NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5My
 wtMjEwMzI1ODMyOSwtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgx

@@ -104,8 +104,8 @@ Upload and run the program on the Arduino, then click on the search icon to open
 ![Opening the serial monitor](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/open_serial_monitor.png)
 You should see your distances being spammed into the monitor!
 
-## Basic logic with If statements
-Let's add some more functionality to our robot. Referencing the code from the [previous](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md) tutorial, we're going to use the LED attached to pin 13.
+## Basic logic
+Let's add some more functionality to our robot. Let's use the distance value to turn  on a LED if the distance is less than 10cm.  Referencing the code from the [previous](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md) tutorial, we're going to use the LED attached to pin 13. 
 
 ```c
 // Add a new pin variable next to the others
@@ -113,12 +113,13 @@ const int LED_PIN = 13;
 
 void setup() {
 	// ... Previous code goes here
+	// Set the pin to output
 	pinMode(LED_PIN, OUTPUT);
 }
 ```
 
 ### The if and else statement
-We can use an if statement to run code if a condition is met and else to run code otherwise. The basic syntax is:
+We can use an if statement to run code if a condition is met and an else statement to run code otherwise. The basic syntax is:
 ```c
 if (`some condition goes here`) {
 	// If the condition is true run the code inside these brackets
@@ -127,9 +128,9 @@ if (`some condition goes here`) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjcyNTE5MiwtMTc3MjY4MzAyMSwtMj
-EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
-NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
-ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
-
+eyJoaXN0b3J5IjpbLTE1NDEzODk3NTUsLTYyMjcyNTE5MiwtMT
+c3MjY4MzAyMSwtMjEyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1
+Njc4MjksLTQ4Njc1NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOT
+MsLTIxMDMyNTgzMjksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4
+MTc4OTU2MjVdfQ==
 -->

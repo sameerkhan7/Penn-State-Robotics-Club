@@ -9,8 +9,9 @@ Whether you're a new or returning member there's always something to learn.
 
 Learn the basics of Arduino programming
 
-### Reading distances
-[]
+### Logic with Distance Sensors
+[LogicWithDistances.md](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/LogicWithDistances.md)
+
 Learn how to measure distances with an Ultrasonic sensor 
 
 ### TutorialBot - The Wall Detecting Car
@@ -22,8 +23,8 @@ The car that never crashes into a wall. Uses an ultrasonic distance sensor to dr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzc3MDIzNCwtMjA1Nzc3NzM2OCwtMT
-Y2MDUxOTc0LC0xMDgxNjE0ODM4LDExODE5Mjk2MDIsMTU0NTMw
-NDU4LC0yMDIzMDcwNTUsMTU0ODEzOTk2MSwtMTQwNTQ5NzEzOF
-19
+eyJoaXN0b3J5IjpbLTEzODQ4MjE5NzcsLTk0Mzc3MDIzNCwtMj
+A1Nzc3NzM2OCwtMTY2MDUxOTc0LC0xMDgxNjE0ODM4LDExODE5
+Mjk2MDIsMTU0NTMwNDU4LC0yMDIzMDcwNTUsMTU0ODEzOTk2MS
+wtMTQwNTQ5NzEzOF19
 -->

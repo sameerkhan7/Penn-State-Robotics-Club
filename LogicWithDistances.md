@@ -33,7 +33,7 @@ First import the NewPing library, this gives us access to  the library we just i
 #include <NewPing.h>
 ```
 
-Now define the pins that we connected above
+Now define the pins that we connected above. `const` just means to make this variable a constant and prevent future code from changing it.
 ```c
 const int sonarTrig = 9;
 const int sonarEcho = 10;
@@ -107,11 +107,18 @@ You should see your distances being spammed into the monitor!
 ## Basic logic with If statements
 Let's add some more functionality to our robot. Referencing the code from the [previous](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md) tutorial, we're going to use the LED attached to pin 13.
 
-``c
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTAzNTQ3MSwtMTc3MjY4MzAyMSwtMj
-EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
-NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
-ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+```c
+// Add a new pin variable next to the others
+const int LED_PIN = 13;
 
+void setup() {
+	// Other code ...
+	
+}
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTIyNDM5NDc4LC0xNzcyNjgzMDIxLC0yMT
+IzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2NzgyOSwtNDg2NzU2
+NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5MywtMjEwMzI1ODMyOS
+wtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
 -->

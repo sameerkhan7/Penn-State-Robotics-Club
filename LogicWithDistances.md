@@ -112,13 +112,22 @@ Let's add some more functionality to our robot. Referencing the code from the [p
 const int LED_PIN = 13;
 
 void setup() {
-	// Other code ...
-	
+	// ... Previous code goes here
+	pinMode(LED_PIN, OUTPUT);
+}
+```
+
+### The If statement
+We can use an if statement to run code if a condition is met. The basic syntax is:
+```c
+if (`some condition goes here`) {
+	// If 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDM5NDc4LC0xNzcyNjgzMDIxLC0yMT
-IzMjM0MDgwLDE1NTg5ODA0MDYsMTE5OTU2NzgyOSwtNDg2NzU2
-NDEsMTQ1MTYyNDEzNCwtMTM1MjgwMDM5MywtMjEwMzI1ODMyOS
-wtMTk3ODA0ODg1NSwxMTY0MDQxODA1LDgxNzg5NTYyNV19
+eyJoaXN0b3J5IjpbMTMwMTAxNjM3MiwtMTc3MjY4MzAyMSwtMj
+EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
+NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
+ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+
 -->

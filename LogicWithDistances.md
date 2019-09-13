@@ -105,11 +105,13 @@ Upload and run the program on the Arduino, then click on the search icon to open
 You should see your distances being spammed into the monitor!
 
 ## Basic logic with If statements
-Let's add some more functionality to our robot. Using the code from the [previous](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md) tutorial
+Let's add some more functionality to our robot. Referencing the code from the [previous](https://github.com/Penn-State-Robotics-Club/tutorials/tree/master/Introduction.md) tutorial, we're going to use the LED attached to pin 13.
+
+``c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTAyMzc2MjYsLTE3NzI2ODMwMjEsLT
-IxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3
-NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4Mz
-I5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
+eyJoaXN0b3J5IjpbMTgwOTAzNTQ3MSwtMTc3MjY4MzAyMSwtMj
+EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
+NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
+ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
 
 -->

@@ -51,10 +51,12 @@ In order to keep track of our distance in the program we should create a variabl
 int distance = 0;
 ```
 
-In the loop function get the distance and store it into our distance variable.
+In the loop function get the distance and store it into our distance variable. We add a small delay at the bottom so that the pings don't occur too frequently and interfere with each other.
 ```c
 void loop() {
 	distance = sonarSensor.ping_cm();
+	
+	delay(30);
 }
 ```
 
@@ -98,11 +100,12 @@ void loop() {
 Upload and run the program on the Arduino, then click on the search icon to open the monitor:
 
 ![Opening the serial monitor](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/open_serial_monitor.png)
+You should see your distances being spammed into the monitor.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDM5NjA5MiwtMTc3MjY4MzAyMSwtMj
-EyMzIzNDA4MCwxNTU4OTgwNDA2LDExOTk1Njc4MjksLTQ4Njc1
-NjQxLDE0NTE2MjQxMzQsLTEzNTI4MDAzOTMsLTIxMDMyNTgzMj
-ksLTE5NzgwNDg4NTUsMTE2NDA0MTgwNSw4MTc4OTU2MjVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzQ4NTU3MzIsLTE3NzI2ODMwMjEsLT
+IxMjMyMzQwODAsMTU1ODk4MDQwNiwxMTk5NTY3ODI5LC00ODY3
+NTY0MSwxNDUxNjI0MTM0LC0xMzUyODAwMzkzLC0yMTAzMjU4Mz
+I5LC0xOTc4MDQ4ODU1LDExNjQwNDE4MDUsODE3ODk1NjI1XX0=
 
 -->

@@ -62,12 +62,17 @@ void loop() {
 Add the following code to their respective locations:
 ```c
 // Add these pin assignments near the others
-const int MOTOR1_FORWARD = 
+const int MOTOR1_FORWARD = 7; // IN 1
+const int MOTOR1_BACKWARD = 6; // IN 2
+const int MOTOR1_ENABLE = 9; // ENA
+const int MOTOR2_FORWARD = 5; // IN 3
+const int MOTOR2_BACKWARD = 4; // IN 4
+const int MOTOR2_ENABLE = 3; // ENB
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjkzNzUzMSwyOTAxODk2NzAsMTQ4Nj
-g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
-MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
-IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
-NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTIwMDM2MzY0MjIsMjkwMTg5NjcwLDE0OD
+Y4NjQwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMxLC03NDA1NzQy
+MjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYwOSwtMT
+QyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOTQzMDA3
+NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

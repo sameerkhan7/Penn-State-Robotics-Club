@@ -105,14 +105,14 @@ if (distance < 10) {
 
 If your motors are spinning in the wrong direction, either flip the wiring on the motor controller or flip the pin numbers in the pin assignment variables. Ex: If motor 1 is spinning backwards when it should be moving forwards, set `MOTOR1_FORWARDS = 6` and `MOTOR1_BACKWARDS = 7`.
 
-Your robot should now be moving pretty fast towards the wall and should stop moving when it gets close enough. But isn't it kinda too fast? But how do we slow the motors down, we can't control the voltage of the battery which is hooked into our motor controller.
+Your robot should now be moving pretty fast towards the wall and should stop moving when it gets close enough. But isn't it kinda too fast? But how do we slow the motors down? We can't control the voltage of the battery which is hooked into our motor controller.
 
 ## PWM Motor Control
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY3OTI3MTMsMjkwMTg5NjcwLDE0OD
-Y4NjQwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMxLC03NDA1NzQy
-MjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYwOSwtMT
-QyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOTQzMDA3
-NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbLTU4NDY0ODQwNiwyOTAxODk2NzAsMTQ4Nj
+g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
+MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
+IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
+NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

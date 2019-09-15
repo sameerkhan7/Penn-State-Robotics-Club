@@ -5,6 +5,7 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 **What you will learn**:
  - L298N Motor Controller setup for basic movement
  - (Optional) PWM signals for speed adjustments
+ - 
 
 **Requirements**:
 - The Arduino IDE 
@@ -13,7 +14,8 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOT
-I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
-MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbLTE2NzA5MzQ5NzgsMTYxNjUzNjI1NywxNT
+A1MzI4ODEzLDYwOTI3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYz
+Mjg0LDk1MzA2MDc3MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOT
+g0OTMwMTg1XX0=
 -->

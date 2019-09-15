@@ -6,6 +6,9 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
  - L298N Motor Controller setup for basic movement
  - (Optional) PWM signals for speed adjustments
 
+## How does a Motor Work?
+Watch this short video on how the DC motors we will be using work. DC motors take advantage of the Lorentz force to produce a torque, those of you who took PHYS212 will unde
+
 ## Motor Setup
 Follow the club instructions on building the actual robot. Here's a diagram for how the L298N motor controller should be hooked up to the Arduino:
 ![Wiring Diagram](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/l298_motor_wiring.png)
@@ -49,10 +52,11 @@ void loop() {
 	delay(30);
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njg2NDA1MSwxNjkxMzgxNzgxLC04Nz
-I1ODUyMzEsLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MDUzMjg4
-MTMsNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMyODQsOT
-UzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAx
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTQyMDg0MDE2OCwxNDg2ODY0MDUxLDE2OT
+EzODE3ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIxLDE2MTY1MzYy
+NTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0MjAyODI3MTgsMT
+k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
+ODA4LDk4NDkzMDE4NV19
 -->

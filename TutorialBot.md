@@ -59,9 +59,13 @@ void loop() {
 }
 ```
 ### Testing out the motors
-Add the following code inside 
+Add the following code to their respective locations:
+```c
+// Add these pin assignments near the others
+const int MOTOR1_FORWARD = 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzI4MzcwNSwyOTAxODk2NzAsMTQ4Nj
+eyJoaXN0b3J5IjpbMTc0NjkzNzUzMSwyOTAxODk2NzAsMTQ4Nj
 g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
 MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
 IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1

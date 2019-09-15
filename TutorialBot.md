@@ -62,25 +62,24 @@ void loop() {
 Let's add our motors in such a way that the robot will move when the distance is greater than 10, and stop when they are closer than 10.
 
 Add these pin assignments near the others
-``c
-```
 ```c
-// Add these pin assignments near the others
 const int MOTOR1_FORWARD = 7; // IN 1
 const int MOTOR1_BACKWARD = 6; // IN 2
 const int MOTOR1_ENABLE = 9; // ENA
 const int MOTOR2_FORWARD = 5; // IN 3
 const int MOTOR2_BACKWARD = 4; // IN 4
 const int MOTOR2_ENABLE = 3; // ENB
-
-// Add these lines to the bottom of setup:
+```
+Add these lines to the bottom of `setup`:
+```c
 // Enable both of the motors
 digitalWrite(MOTOR1_ENABLE, HIGH);
 digitalWrite(MOTOR2_ENABLE, HIGH);
-
-// Edit the if-else statement to look like this:
+```
+And edit the if-else statement to look like this:
+```c
 if (distance < 10) {
-	// Setting forward pin to high and backward to low will make motors rotate forward .         
+	// Setting the forward pin to high and backward to low will make motors rotate forward.         
     digitalWrite(MOTOR1_FORWARD, HIGH);  
     digitalWrite(MOTOR1_BACKWARD, LOW);    
 
@@ -99,12 +98,22 @@ if (distance < 10) {
     digitalWrite(MOTOR2_FORWARD, HIGH);
     digitalWrite(MOTOR2_BACKWARD, HIGH);
     analogWrite(MOTOR2_PWM, 0);         
-  }
+ }
+```
+```c
+// Add these pin assignments near the others
+
+
+// Add these lines to the bottom of setup:
+
+
+// Edit the if-else statement to look like this:
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzEyNDk1NywyOTAxODk2NzAsMTQ4Nj
-g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
-MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
-IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
-NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbMjcxMjUwMTQ5LDI5MDE4OTY3MCwxNDg2OD
+Y0MDUxLDE2OTEzODE3ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIx
+LDE2MTY1MzYyNTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0Mj
+AyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0
+MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
 -->

@@ -116,13 +116,21 @@ When the signal is in the up position we provide power to the motor and when it'
 ## Applying PWM control to our Sketch
 Arduino gives us 256 different PWM values from 0 - 255 that we can use to create varying duty cycles. 0 means completely off and 255 means completely on. 128 would give us a duty cycle of around 50%.
 
-First, remove the following lines from setup:
+First, **remove** the following lines from setup:
 ```c
+digitalWrite(MOTOR1_ENABLE, HIGH);
+digitalWrite(MOTOR2_ENABLE, HIGH);
+```
+
+Then add this line right after we turn the motor on:
+```c
+analogWrite(200, )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg5NzY2LC01ODQ2NDg0MDYsMjkwMT
-g5NjcwLDE0ODY4NjQwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMx
-LC03NDA1NzQyMjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOT
-I3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3
-MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbLTE4MDA3NzQyODYsLTU4NDY0ODQwNiwyOT
+AxODk2NzAsMTQ4Njg2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUy
+MzEsLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNj
+A5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYw
+NzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ
+==
 -->

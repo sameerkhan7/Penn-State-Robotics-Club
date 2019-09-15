@@ -7,12 +7,11 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
  - (Optional) PWM signals for speed adjustments
 
 ## Motor Setup
-Follow the club instructions on how to wire up the motors to the L298N motor controller module here.
-
-
+Follow the club instructions on building the actual robot. Here's a diagram for how the L298N motor controller should be hooked up to the Arduino:
+![Wiring Diagram](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/l298.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjU4NTIzMSwtNzQwNTc0MjIxLDE2MT
-Y1MzYyNTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0MjAyODI3
-MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtOD
-A2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbMTM4NTY5NzMwNCwtODcyNTg1MjMxLC03ND
+A1NzQyMjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYw
+OSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOT
+QzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

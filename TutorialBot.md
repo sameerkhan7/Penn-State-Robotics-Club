@@ -154,13 +154,16 @@ analogWrite(MOTOR2_ENABLE, 255);
 
 By leaving the `ENA` and `ENB` pins `HIGH` while the `FORWARD` and `BACKWARD` pins are `LOW` we effectively apply a large load to the motors. The topic of how this works is complicated and so I've left the [read](https://circuitglobe.com/induction-motor-braking.html) for the curious. Basically think of this like regenerative braking on a Tesla.
 
-Try switching this code out for the old 
+Try to compare the braking distance between the old code and the new code! See if you can find a noticeable difference or not.
+
+## Congrats!
+You've reached the end of the Penn State Robotics introductory tutorials! Now it's time to build some robots!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNjk2MDAsODA2NDg2MDM0LC05OTY3Mj
-czMjUsMTY3OTc4NDg4OCwtMTgyOTkyNTgzLC01ODQ2NDg0MDYs
-MjkwMTg5NjcwLDE0ODY4NjQwNTEsMTY5MTM4MTc4MSwtODcyNT
-g1MjMxLC03NDA1NzQyMjEsMTYxNjUzNjI1NywxNTA1MzI4ODEz
-LDYwOTI3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1Mz
-A2MDc3MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1
-XX0=
+eyJoaXN0b3J5IjpbNjUzODI2MjQ2LDgwNjQ4NjAzNCwtOTk2Nz
+I3MzI1LDE2Nzk3ODQ4ODgsLTE4Mjk5MjU4MywtNTg0NjQ4NDA2
+LDI5MDE4OTY3MCwxNDg2ODY0MDUxLDE2OTEzODE3ODEsLTg3Mj
+U4NTIzMSwtNzQwNTc0MjIxLDE2MTY1MzYyNTcsMTUwNTMyODgx
+Myw2MDkyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NT
+MwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4
+NV19
 -->

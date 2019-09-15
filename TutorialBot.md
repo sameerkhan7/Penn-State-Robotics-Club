@@ -8,9 +8,9 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 
 ## How does a Motor Work?
 Watch this video on how  DC motors work. 
-<iframe width="700" height="394" src="https://www.youtube.com/embed/LAtPHANEfQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LAtPHANEfQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-TL;DR: DC motors take advantage of the Lorentz force to produce a torque. 
+TL;DW: DC motors take advantage of the Lorentz force to produce a torque. By manipulating the magnetic field along a permanent magnet, we can continuusly 
 
 ## Motor Setup
 Follow the club instructions on building the actual robot. Here's a diagram for how the L298N motor controller should be hooked up to the Arduino:
@@ -57,9 +57,9 @@ void loop() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY4NDg3OTEsMjkwMTg5NjcwLDE0OD
-Y4NjQwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMxLC03NDA1NzQy
-MjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYwOSwtMT
-QyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOTQzMDA3
-NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbLTQxOTc3NTk1OSwyOTAxODk2NzAsMTQ4Nj
+g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
+MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
+IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
+NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

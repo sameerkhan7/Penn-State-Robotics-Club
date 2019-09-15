@@ -18,7 +18,6 @@ Connect `ENA` to `pin 9` and `ENB` to `pin 3`
 ## Motor Control
 Start with the completed program from the last tutorial. Make sure to [import](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/LogicWithDistances.md#importing-the-newping-library) the NewPing library if you haven't already. 
 ```c
-
 #include <NewPing.h>
 
 const int sonarTrig = 9;
@@ -33,9 +32,12 @@ void setup() {
 }
 
 void loop() {
+	// Get distance value from sensor
 	distance = sonarSensor.ping_cm();
+	// Print it out to the serial monitor
 	Serial.println("Sonar distance: " + String(distance));
 
+	// If-else statement
 	if (distance < 10) {
 		// Turn on the LED, if the distance is < 10cm
 		digitalWrite(LED_PIN, HIGH);
@@ -46,11 +48,9 @@ void loop() {
 
 	delay(30);
 }
-
-
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDU0NTg4MSwxNjkxMzgxNzgxLC04Nz
+eyJoaXN0b3J5IjpbMTQ4Njg2NDA1MSwxNjkxMzgxNzgxLC04Nz
 I1ODUyMzEsLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MDUzMjg4
 MTMsNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMyODQsOT
 UzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAx

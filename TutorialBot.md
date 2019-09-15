@@ -100,20 +100,10 @@ if (distance < 10) {
     analogWrite(MOTOR2_PWM, 0);         
  }
 ```
-```c
-// Add these pin assignments near the others
-
-
-// Add these lines to the bottom of setup:
-
-
-// Edit the if-else statement to look like this:
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxMjUwMTQ5LDI5MDE4OTY3MCwxNDg2OD
-Y0MDUxLDE2OTEzODE3ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIx
-LDE2MTY1MzYyNTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0Mj
-AyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0
-MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbMTM3NTI4MTcxNSwyOTAxODk2NzAsMTQ4Nj
+g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
+MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
+IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
+NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
 -->

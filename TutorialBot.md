@@ -108,11 +108,13 @@ If your motors are spinning in the wrong direction, either flip the wiring on th
 Your robot should now be moving pretty fast towards the wall and should stop moving when it gets close enough. But isn't it kinda too fast? But how do we slow the motors down? We can't control the voltage of the battery which is hooked into our motor controller.
 
 ## PWM Motor Control
-
+Instead of varying the voltage on our motors we can adjust the speed by turning them on and off really quickly. Take a look at this signal graph ([Source](https://learn.sparkfun.com/tutorials/pulse-width-modulation/duty-cycle)):
+https://cdn.sparkfun.com/assets/f/9/c/8/a/512e869bce395fbc64000002.JPG
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDY0ODQwNiwyOTAxODk2NzAsMTQ4Nj
-g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
-MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
-IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
-NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTE0MDg1MzA0NDAsLTU4NDY0ODQwNiwyOT
+AxODk2NzAsMTQ4Njg2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUy
+MzEsLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNj
+A5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYw
+NzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ
+==
 -->

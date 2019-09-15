@@ -7,8 +7,7 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
  - (Optional) PWM signals for speed adjustments
 
 ## How does a Motor Work?
-Watch this video on how  DC motors work:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LAtPHANEfQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Watch this [video](https://youtu.be/LAtPHANEfQo) on how DC motors work.
 
 TL;DW: DC motors take advantage of the [Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force) to produce a torque. By manipulating a magnetic field along a permanent magnet, we can continuously generate a Lorentz force that drives our motor.
 
@@ -159,11 +158,11 @@ Try to compare the braking distance between the old code and the new code! See i
 ## Congrats!
 You've reached the end of the Penn State Robotics introductory tutorials! Now it's time to build some robots!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzODI2MjQ2LDgwNjQ4NjAzNCwtOTk2Nz
-I3MzI1LDE2Nzk3ODQ4ODgsLTE4Mjk5MjU4MywtNTg0NjQ4NDA2
-LDI5MDE4OTY3MCwxNDg2ODY0MDUxLDE2OTEzODE3ODEsLTg3Mj
-U4NTIzMSwtNzQwNTc0MjIxLDE2MTY1MzYyNTcsMTUwNTMyODgx
-Myw2MDkyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NT
-MwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4
-NV19
+eyJoaXN0b3J5IjpbLTE0NjA5ODc1ODcsNjUzODI2MjQ2LDgwNj
+Q4NjAzNCwtOTk2NzI3MzI1LDE2Nzk3ODQ4ODgsLTE4Mjk5MjU4
+MywtNTg0NjQ4NDA2LDI5MDE4OTY3MCwxNDg2ODY0MDUxLDE2OT
+EzODE3ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIxLDE2MTY1MzYy
+NTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0MjAyODI3MTgsMT
+k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
+ODA4XX0=
 -->

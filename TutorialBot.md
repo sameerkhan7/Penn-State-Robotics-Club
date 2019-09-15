@@ -122,21 +122,27 @@ digitalWrite(MOTOR1_ENABLE, HIGH);
 digitalWrite(MOTOR2_ENABLE, HIGH);
 ```
 
-Then add this line right after we turn the motor on:
+Then add these lines right after we turn the motor on:
 ```c
 // Set the duty cycle to ~78%
 // aka turn our motor on for 78% of the time
 // and off for 22% of the time.
 analogWrite(MOTOR1_ENABLE, 200);
+analogWrite(MOTOR2_ENABLE, 200);
 ```
 
-And this line right after we turn the motor on:
+And  add these lines right after we turn the motor off:
+```c
+// Set the duty cycle to 0%
+analogWrite(MOTOR1_ENABLE, 0);
+analogWrite(MOTOR2_ENABLE, 0);
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyODAzMjgzLC0xODI5OTI1ODMsLTU4ND
-Y0ODQwNiwyOTAxODk2NzAsMTQ4Njg2NDA1MSwxNjkxMzgxNzgx
-LC04NzI1ODUyMzEsLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MD
-UzMjg4MTMsNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMy
-ODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5OD
-Q5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTM5MDYzOTQ3OSwtMTgyOTkyNTgzLC01OD
+Q2NDg0MDYsMjkwMTg5NjcwLDE0ODY4NjQwNTEsMTY5MTM4MTc4
+MSwtODcyNTg1MjMxLC03NDA1NzQyMjEsMTYxNjUzNjI1NywxNT
+A1MzI4ODEzLDYwOTI3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYz
+Mjg0LDk1MzA2MDc3MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOT
+g0OTMwMTg1XX0=
 -->

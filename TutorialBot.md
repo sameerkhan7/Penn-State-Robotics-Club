@@ -152,12 +152,12 @@ analogWrite(MOTOR1_ENABLE, 255);
 analogWrite(MOTOR2_ENABLE, 255);
 ```
 
-By leaving the `ENA` and `ENB` pins `HIGH` we effectively apply a large  
+By leaving the `ENA` and `ENB` pins `HIGH` while the `FORWARD` and `BACKWARD` pins are `LOW` we effectively apply a large load to the motors. The motors have to fight 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjcyNzMyNSwxNjc5Nzg0ODg4LC0xOD
-I5OTI1ODMsLTU4NDY0ODQwNiwyOTAxODk2NzAsMTQ4Njg2NDA1
-MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIyMSwxNj
-E2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xNDIwMjgy
-NzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLT
-gwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbODA2NDg2MDM0LC05OTY3MjczMjUsMTY3OT
+c4NDg4OCwtMTgyOTkyNTgzLC01ODQ2NDg0MDYsMjkwMTg5Njcw
+LDE0ODY4NjQwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMxLC03ND
+A1NzQyMjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYw
+OSwtMTQyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOT
+QzMDA3NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

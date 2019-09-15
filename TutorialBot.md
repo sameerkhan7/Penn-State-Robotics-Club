@@ -79,7 +79,8 @@ digitalWrite(MOTOR2_ENABLE, HIGH);
 And edit the if-else statement to look like this:
 ```c
 if (distance < 10) {
-	// Turn off the LED
+	// Turn on the LED
+	digitalWrite(LED_PIN, HIGH);
 	
 	// Turn off the left motor by setting both pins to low.     
     digitalWrite(MOTOR1_FORWARD, LOW);
@@ -89,8 +90,8 @@ if (distance < 10) {
     digitalWrite(MOTOR2_FORWARD, LOW);
     digitalWrite(MOTOR2_BACKWARD, LOW);     
   } else {
-    // Turn on LED.                                 
-    digitalWrite(LED_PIN, HIGH);
+    // Turn off the LED.                                 
+    digitalWrite(LED_PIN, LOW);
     
     // Setting the forward pin to high and backward to low will make motors rotate forward.         
     digitalWrite(MOTOR1_FORWARD, HIGH);  
@@ -104,11 +105,14 @@ if (distance < 10) {
 
 If your motors are spinning in the wrong direction, either flip the wiring on the motor controller or flip the pin numbers in the pin assignment variables. Ex: If motor 1 is spinning backwards when it should be moving forwards, set `MOTOR1_FORWARDS = 6` and `MOTOR1_BACKWARDS = 7`.
 
-Your robot should now be moving pretty fast towards the wall and should stop moving when it gets close enough.
+Your robot should now be moving pretty fast towards the wall and should stop moving when it gets close enough. But isn't it kinda too fast? But how do we slow the motors down, we can't control the voltage of the battery which is hooked into our motor controller.
+
+## PWM Motor Control
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNzI4OTU5LDI5MDE4OTY3MCwxNDg2OD
-Y0MDUxLDE2OTEzODE3ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIx
-LDE2MTY1MzYyNTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0Mj
-AyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0
-MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbLTE2MTY3OTI3MTMsMjkwMTg5NjcwLDE0OD
+Y4NjQwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMxLC03NDA1NzQy
+MjEsMTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYwOSwtMT
+QyMDI4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOTQzMDA3
+NTQzLC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

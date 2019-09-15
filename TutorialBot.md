@@ -86,7 +86,6 @@ if (distance < 10) {
     // Do the same for the right motor
     digitalWrite(MOTOR2_FORWARD, HIGH);
     digitalWrite(MOTOR2_BACKWARD, LOW);
-    analogWrite(MOTOR2_PWM, 255);
   } else {
     // Turn on LED.                                 
     digitalWrite(LED_PIN, HIGH);
@@ -97,14 +96,13 @@ if (distance < 10) {
 
     // Do the same for the right motor.
     digitalWrite(MOTOR2_FORWARD, LOW);
-    digitalWrite(MOTOR2_BACKWARD, LOW);
-    analogWrite(MOTOR2_PWM, 0);         
+    digitalWrite(MOTOR2_BACKWARD, LOW);     
  }
 ```
 
-If your motors are spinning in the wrong direction, either flip the wiring on the motor controller or flip the pin numbers in the pin assignment variables. If M
+If your motors are spinning in the wrong direction, either flip the wiring on the motor controller or flip the pin numbers in the pin assignment variables. Ex: If motor 1 is spinning backwards when it should be moving forwards, set `MOTOR1_FORWARDS = 6` and `MOTOR1_BACKWARDS = 7`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjUwNjUwNCwyOTAxODk2NzAsMTQ4Nj
+eyJoaXN0b3J5IjpbMTQ4MzM1MzQ2NSwyOTAxODk2NzAsMTQ4Nj
 g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
 MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
 IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1

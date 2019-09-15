@@ -140,12 +140,16 @@ analogWrite(MOTOR1_ENABLE, 0);
 analogWrite(MOTOR2_ENABLE, 0);
 ```
 
+Upload and try it out. You should notice the motors are a little slower than last time
 This should slow down the motors a little. Play with the value `200` and see how increasing or decreasing it affects the motor speed.
 
 ## Improving the braking distance
-You should notice that robot actually moves a little when we turn the motors off. This is because the momentum of the robot keeps it moving even when the power is off. In order to apply some braking force we can leave the enable pins on durin
+You should notice that robot moves quite a bit when we turn the motors off. This is because the momentum of the robot keeps it moving even when the power is off. In order to apply some braking force we can leave the enable pins on.
+
+Change the analogWrite lines when we turn the motors off 
+```c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjkzOTY5OCwxNjc5Nzg0ODg4LC0xOD
+eyJoaXN0b3J5IjpbMTI5MzAwNjc5MywxNjc5Nzg0ODg4LC0xOD
 I5OTI1ODMsLTU4NDY0ODQwNiwyOTAxODk2NzAsMTQ4Njg2NDA1
 MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIyMSwxNj
 E2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xNDIwMjgy

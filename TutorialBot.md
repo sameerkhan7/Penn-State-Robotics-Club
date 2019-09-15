@@ -90,20 +90,30 @@ if (distance < 10) {
   } else {
     // Turn on LED.                                 
     digitalWrite(LED_PIN, HIGH);
-    // Setting forward pin to HIGH and backward to HIGH will make the motors break like regenerative breaking in a Tesla.        
-    digitalWrite(MOTOR1_FORWARD, HIGH);
-    digitalWrite(MOTOR1_BACKWARD, HIGH;
+         
+    digitalWrite(MOTOR1_FORWARD, LOW);
+    digitalWrite(MOTOR1_BACKWARD, LOW;
 
     // Do the same for the right motor.
-    digitalWrite(MOTOR2_FORWARD, HIGH);
-    digitalWrite(MOTOR2_BACKWARD, HIGH);
+    digitalWrite(MOTOR2_FORWARD, LOW);
+    digitalWrite(MOTOR2_BACKWARD, LOW);
     analogWrite(MOTOR2_PWM, 0);         
  }
 ```
+```c
+// Add these pin assignments near the others
+
+
+// Add these lines to the bottom of setup:
+
+
+// Edit the if-else statement to look like this:
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTI4MTcxNSwyOTAxODk2NzAsMTQ4Nj
-g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
-MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
-IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1
-NDMsLTgwNjM0NDgwOCw5ODQ5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbMzk4MTg4MjEsMjkwMTg5NjcwLDE0ODY4Nj
+QwNTEsMTY5MTM4MTc4MSwtODcyNTg1MjMxLC03NDA1NzQyMjEs
+MTYxNjUzNjI1NywxNTA1MzI4ODEzLDYwOTI3ODYwOSwtMTQyMD
+I4MjcxOCwxOTk1NzYzMjg0LDk1MzA2MDc3MywxOTQzMDA3NTQz
+LC04MDYzNDQ4MDgsOTg0OTMwMTg1XX0=
 -->

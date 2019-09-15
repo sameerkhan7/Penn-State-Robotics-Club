@@ -156,13 +156,13 @@ By leaving the `ENA` and `ENB` pins `HIGH` while the `FORWARD` and `BACKWARD` pi
 Try to compare the braking distance between the old code and the new code! See if you can find a noticeable difference or not.
 
 ## Congrats!
-You've reached the end of the Penn State Robotics introductory tutorials! Now it's time to build some robots!
+You've reached the end of the Penn State Robotics introductory tutorials! Now it's time to build some robots.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA5ODc1ODcsNjUzODI2MjQ2LDgwNj
-Q4NjAzNCwtOTk2NzI3MzI1LDE2Nzk3ODQ4ODgsLTE4Mjk5MjU4
-MywtNTg0NjQ4NDA2LDI5MDE4OTY3MCwxNDg2ODY0MDUxLDE2OT
-EzODE3ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIxLDE2MTY1MzYy
-NTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0MjAyODI3MTgsMT
-k5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0
-ODA4XX0=
+eyJoaXN0b3J5IjpbMjEwOTA1MTcyOCw2NTM4MjYyNDYsODA2ND
+g2MDM0LC05OTY3MjczMjUsMTY3OTc4NDg4OCwtMTgyOTkyNTgz
+LC01ODQ2NDg0MDYsMjkwMTg5NjcwLDE0ODY4NjQwNTEsMTY5MT
+M4MTc4MSwtODcyNTg1MjMxLC03NDA1NzQyMjEsMTYxNjUzNjI1
+NywxNTA1MzI4ODEzLDYwOTI3ODYwOSwtMTQyMDI4MjcxOCwxOT
+k1NzYzMjg0LDk1MzA2MDc3MywxOTQzMDA3NTQzLC04MDYzNDQ4
+MDhdfQ==
 -->

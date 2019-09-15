@@ -6,12 +6,13 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
  - L298N Motor Controller setup for basic movement
  - (Optional) PWM signals for speed adjustments
 
-
+## Motor Setup
+Follow the club instructions on how to wire up the motors to the L298N motor controller module here.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MD
-UzMjg4MTMsNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMy
-ODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5OD
-Q5MzAxODVdfQ==
+eyJoaXN0b3J5IjpbLTg3MjU4NTIzMSwtNzQwNTc0MjIxLDE2MT
+Y1MzYyNTcsMTUwNTMyODgxMyw2MDkyNzg2MDksLTE0MjAyODI3
+MTgsMTk5NTc2MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtOD
+A2MzQ0ODA4LDk4NDkzMDE4NV19
 -->

@@ -12,7 +12,7 @@ Watch this video on how  DC motors work:
 
 TL;DW: DC motors take advantage of the [Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force) to produce a torque. By manipulating a magnetic field along a permanent magnet, we can continuously generate a Lorentz force that drives our motor.
 
-But don't worry if this looks complicated, because it's super simple for us. All we have to do is power the positive and negative ends of our m
+But don't worry if this looks complicated, because it's super simple for us. All we have to do is power the positive and negative ends and the motor's design will do all the work for us.
 
 ## Motor Setup
 Follow the club instructions on building the actual robot. Here's a diagram for how the L298N motor controller should be hooked up to the Arduino:
@@ -24,12 +24,12 @@ Connect `IN1` from L298N to `pin 7` on the Arduino
 Connect `ENA` to `pin 9` and `ENB` to `pin 3`
 
 ## Motor Control
-Start with the completed program from the last tutorial. Make sure to [import](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/LogicWithDistances.md#importing-the-newping-library) the NewPing library if you haven't already. 
+Start with the completed program from the last tutorial. Make sure to [import](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/LogicWithDistances.md#importing-the-newping-library) the NewPing library if you haven't already.  And move `trig` from the distance sensor to `pin 10` and `sonarEcho` to ``
 ```c
 #include <NewPing.h>
 
-const int sonarTrig = 9;
-const int sonarEcho = 10;
+const int sonarTrig = 10;
+const int sonarEcho = 11;
 NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 
 int distance = 0;
@@ -59,7 +59,7 @@ void loop() {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjEwOTk4MSwyOTAxODk2NzAsMTQ4Nj
+eyJoaXN0b3J5IjpbMjA2MzQyMzgxOSwyOTAxODk2NzAsMTQ4Nj
 g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
 MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
 IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1

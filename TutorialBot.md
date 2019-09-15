@@ -124,8 +124,8 @@ digitalWrite(MOTOR2_ENABLE, HIGH);
 
 Then add these lines right after we turn the motor on:
 ```c
-// Set the duty cycle to ~78%
-// aka turn our motor on for 78% of the time
+// Set the duty cycle to ~78%.
+// Aka turn our motor on for 78% of the time
 // and off for 22% of the time.
 analogWrite(MOTOR1_ENABLE, 200);
 analogWrite(MOTOR2_ENABLE, 200);
@@ -133,16 +133,20 @@ analogWrite(MOTOR2_ENABLE, 200);
 
 And  add these lines right after we turn the motor off:
 ```c
-// Set the duty cycle to 0%
+// Set the duty cycle to 0%.
+// Technically this is uneccessary to cut motor power
+// since we already set the forward and backward pins to LOW.
 analogWrite(MOTOR1_ENABLE, 0);
 analogWrite(MOTOR2_ENABLE, 0);
 ```
 
+This should 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDYzOTQ3OSwtMTgyOTkyNTgzLC01OD
-Q2NDg0MDYsMjkwMTg5NjcwLDE0ODY4NjQwNTEsMTY5MTM4MTc4
-MSwtODcyNTg1MjMxLC03NDA1NzQyMjEsMTYxNjUzNjI1NywxNT
-A1MzI4ODEzLDYwOTI3ODYwOSwtMTQyMDI4MjcxOCwxOTk1NzYz
-Mjg0LDk1MzA2MDc3MywxOTQzMDA3NTQzLC04MDYzNDQ4MDgsOT
-g0OTMwMTg1XX0=
+eyJoaXN0b3J5IjpbLTExNTYzMDU3ODMsLTE4Mjk5MjU4MywtNT
+g0NjQ4NDA2LDI5MDE4OTY3MCwxNDg2ODY0MDUxLDE2OTEzODE3
+ODEsLTg3MjU4NTIzMSwtNzQwNTc0MjIxLDE2MTY1MzYyNTcsMT
+UwNTMyODgxMyw2MDkyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2
+MzI4NCw5NTMwNjA3NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LD
+k4NDkzMDE4NV19
 -->

@@ -124,12 +124,19 @@ digitalWrite(MOTOR2_ENABLE, HIGH);
 
 Then add this line right after we turn the motor on:
 ```c
+// Set the duty cycle to ~78%
+// aka turn our motor on for 78% of the time
+// and off for 22% of the time.
 analogWrite(MOTOR1_ENABLE, 200);
 ```
+
+And this line right after we turn the motor on:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5MjU4MywtNTg0NjQ4NDA2LDI5MD
-E4OTY3MCwxNDg2ODY0MDUxLDE2OTEzODE3ODEsLTg3MjU4NTIz
-MSwtNzQwNTc0MjIxLDE2MTY1MzYyNTcsMTUwNTMyODgxMyw2MD
-kyNzg2MDksLTE0MjAyODI3MTgsMTk5NTc2MzI4NCw5NTMwNjA3
-NzMsMTk0MzAwNzU0MywtODA2MzQ0ODA4LDk4NDkzMDE4NV19
+eyJoaXN0b3J5IjpbOTcyODAzMjgzLC0xODI5OTI1ODMsLTU4ND
+Y0ODQwNiwyOTAxODk2NzAsMTQ4Njg2NDA1MSwxNjkxMzgxNzgx
+LC04NzI1ODUyMzEsLTc0MDU3NDIyMSwxNjE2NTM2MjU3LDE1MD
+UzMjg4MTMsNjA5Mjc4NjA5LC0xNDIwMjgyNzE4LDE5OTU3NjMy
+ODQsOTUzMDYwNzczLDE5NDMwMDc1NDMsLTgwNjM0NDgwOCw5OD
+Q5MzAxODVdfQ==
 -->

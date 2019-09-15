@@ -69,13 +69,42 @@ const int MOTOR2_FORWARD = 5; // IN 3
 const int MOTOR2_BACKWARD = 4; // IN 4
 const int MOTOR2_ENABLE = 3; // ENB
 
-// Add this line to setup
+// Add these lines to the bottom of setup
 // Enable both of the motors
 digitalWrite(MOTOR1_ENABLE, HIGH);
-digitalWrite(MOTOR2_ENABLE, LOW);
+digitalWrite(MOTOR2_ENABLE, HIGH);
+
+// Edit the if-else statement to look like this:
+// Setting forward pin to high and backward to low will make motors rotate forward .         
+    digitalWrite(MOTOR1_FORWARD, HIGH);  
+    digitalWrite(MOTOR1_BACKWARD, LOW);
+    // PWM pin can range from 0 (no speed) to 255 (full speed). Here it is set to full speed.
+    analogWrite(MOTOR1_PWM, 255);        
+
+    // Do the same for the right motor
+    digitalWrite(MOTOR2_FORWARD, HIGH);
+    digitalWrite(MOTOR2_BACKWARD, LOW);
+    analogWrite(MOTOR2_PWM, 255);
+  } else {
+    // If distance is not greater than 10, execute the following code:
+    // Turn on LED.                                 
+    digitalWrite(LED_PIN, HIGH);
+    // Setting forward pin to low and backward to low will make the motors stop.        
+    digitalWrite(MOTOR1_FORWARD, LOW);
+    digitalWrite(MOTOR1_BACKWARD, LOW);
+    // The motors will stop if both FORWARD & BACKWARD pin are set to zero, regardless of PWM input.
+    // But setting it to zero is good convention.
+    analogWrite(MOTOR1_PWM, 0);
+
+    // Do the same for the right motor.
+    digitalWrite(MOTOR2_FORWARD, LOW);
+    digitalWrite(MOTOR2_BACKWARD, LOW);
+    analogWrite(MOTOR2_PWM, 0);         
+  }
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDYwNTc4MCwyOTAxODk2NzAsMTQ4Nj
+eyJoaXN0b3J5IjpbMjA1OTExNTM2OCwyOTAxODk2NzAsMTQ4Nj
 g2NDA1MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIy
 MSwxNjE2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xND
 IwMjgyNzE4LDE5OTU3NjMyODQsOTUzMDYwNzczLDE5NDMwMDc1

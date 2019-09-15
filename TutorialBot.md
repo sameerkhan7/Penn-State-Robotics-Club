@@ -152,9 +152,9 @@ analogWrite(MOTOR1_ENABLE, 255);
 analogWrite(MOTOR2_ENABLE, 255);
 ```
 
-By leaving the ENA and EN
+By leaving the `ENA` and `ENB` pins `HIGH` we effectively apply a large  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODQ5NDQ4MSwxNjc5Nzg0ODg4LC0xOD
+eyJoaXN0b3J5IjpbLTk5NjcyNzMyNSwxNjc5Nzg0ODg4LC0xOD
 I5OTI1ODMsLTU4NDY0ODQwNiwyOTAxODk2NzAsMTQ4Njg2NDA1
 MSwxNjkxMzgxNzgxLC04NzI1ODUyMzEsLTc0MDU3NDIyMSwxNj
 E2NTM2MjU3LDE1MDUzMjg4MTMsNjA5Mjc4NjA5LC0xNDIwMjgy

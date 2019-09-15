@@ -1,0 +1,46 @@
+// Define pins for each motor.
+// These 2 pins controls the direction of the motor
+const int MOTOR1_FORWARD = 9; // IN1
+const int MOTOR1_BACKWARD = 8; // IN2
+// This pin controls the speed of the motor by adjusting the duty cycle.
+const int MOTOR1_PWM = 10; // ENA
+
+const int MOTOR2_FORWARD = 7; // IN3
+const int MOTOR2_BACKWARD = 6; // IN4
+const int MOTOR2_PWM = 5; // ENB
+
+void setup() {
+  // Setup code here runs once:
+
+}
+
+void loop() {
+  // Main code here runs repeatedly:
+
+ 
+    // Setting forward pin to high and backward to low will make motors rotate forward .         
+    digitalWrite(MOTOR1_FORWARD, HIGH);  
+    digitalWrite(MOTOR1_BACKWARD, LOW);
+    // PWM pin can range from 0 (no speed) to 255 (full speed).
+    analogWrite(MOTOR1_PWM, 180);
+
+    // Do the same for the right motor
+    digitalWrite(MOTOR2_FORWARD, HIGH);
+    digitalWrite(MOTOR2_BACKWARD, LOW);
+    analogWrite(MOTOR2_PWM, 180);
+
+    //A delay does not mean that the motors stop running, it just means that they continue to do what they were doing.
+    delay(2000);
+    
+    // Setting forward pin to low and backward to low will turn the motors off.         
+    digitalWrite(MOTOR1_FORWARD, LOW);  
+    digitalWrite(MOTOR1_BACKWARD, LOW);
+    analogWrite(MOTOR1_PWM, 0);
+
+    // Do the same for the right motor
+    digitalWrite(MOTOR2_FORWARD, LOW);
+    digitalWrite(MOTOR2_BACKWARD, LOW);
+    analogWrite(MOTOR2_PWM, 0);
+
+    delay(2000);
+}

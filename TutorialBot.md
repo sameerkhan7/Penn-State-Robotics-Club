@@ -5,6 +5,20 @@ A car that never crashes into a wall. Uses an ultrasonic distance sensor to driv
 **What you will learn**:
  - L298N Motor Controller setup for basic movement
  - (Optional) PWM signals for speed adjustments
+ 
+ **Materials**:
+ - (1) Arduino Uno
+ - (6) Male to Female Wires
+ - (1) Male to Male wire
+ - (2) Motor mounts & DC motors
+ - (1) L298N motor controller
+ - (1) Ultrasonic sensor with wires
+ - (1) Caster wheel
+ - (2) 3D Printed wheels
+ - (1) Breadboard
+ - (1) Resistor and LED
+ - (1) Wooden caster mount
+ 
 
 ## How does a Motor Work?
 Watch this [video](https://youtu.be/LAtPHANEfQo) on how DC motors work.

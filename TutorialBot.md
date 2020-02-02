@@ -31,20 +31,21 @@ But don't worry if this looks complicated, because it's super simple for us. All
 Follow the club instructions on building the actual robot. Here's a diagram for how the L298N motor controller should be hooked up to the Arduino:
 ![Wiring Diagram](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/L298N%20Motor%20Battery%20Wiring.PNG)
 
-Connect `IN1` from L298N to `pin 7` on the Arduino
-`IN2` -> `pin 6`
-`IN3` -> `pin 5`
-`IN4` -> `pin 4`
-Connect `ENA` to `pin 9` and `ENB` to `pin 3`
+Connect `IN1` from L298N to `pin 9` on the Arduino
+`IN2` -> `pin 8`
+`IN3` -> `pin 7`
+`IN4` -> `pin 6`
+Connect `ENA` to `pin 10` and `ENB` to `pin 5`
 
 ## Motor Control
 Start with the completed program from the last tutorial. Make sure to [import](https://github.com/Penn-State-Robotics-Club/tutorials/blob/master/LogicWithDistances.md#importing-the-newping-library) the NewPing library if you haven't already.  
-Also move `trig` from the distance sensor to `pin 10` and `echo` to `pin 11`.
+Also move `trig` from the distance sensor to `pin 3` and `echo` to `pin 11`.
 ```c
 #include <NewPing.h>
 
-const int sonarTrig = 10;
+const int sonarTrig = 3;
 const int sonarEcho = 11;
+const int LED_PIN = 13;
 NewPing sonarSensor(sonarTrig, sonarEcho, 200);
 
 int distance = 0;
@@ -77,12 +78,12 @@ Let's add our motors in such a way that the robot will move when the distance is
 
 Add these pin assignments near the others
 ```c
-const int MOTOR1_FORWARD = 7; // IN 1
-const int MOTOR1_BACKWARD = 6; // IN 2
-const int MOTOR1_ENABLE = 9; // ENA
-const int MOTOR2_FORWARD = 5; // IN 3
-const int MOTOR2_BACKWARD = 4; // IN 4
-const int MOTOR2_ENABLE = 3; // ENB
+const int MOTOR1_FORWARD = 9; // IN 1
+const int MOTOR1_BACKWARD = 8; // IN 2
+const int MOTOR1_ENABLE = 10; // ENA
+const int MOTOR2_FORWARD = 7; // IN 3
+const int MOTOR2_BACKWARD = 6; // IN 4
+const int MOTOR2_ENABLE = 5; // ENB
 ```
 Add these lines to the bottom of `setup`:
 ```c
@@ -117,7 +118,7 @@ if (distance < 10) {
  }
 ```
 
-If your motors are spinning in the wrong direction, either flip the wiring on the motor controller or flip the pin numbers in the pin assignment variables. Ex: If motor 1 is spinning backwards when it should be moving forwards, set `MOTOR1_FORWARDS = 6` and `MOTOR1_BACKWARDS = 7`.
+If your motors are spinning in the wrong direction, either flip the wiring on the motor controller or flip the pin numbers in the pin assignment variables. Ex: If motor 1 is spinning backwards when it should be moving forwards, set `MOTOR1_FORWARDS = 8` and `MOTOR1_BACKWARDS = 9`.
 
 Your robot should now be moving pretty fast towards the wall and should stop moving when it gets close enough. But isn't it kinda too fast? But how do we slow the motors down? We can't control the voltage of the battery which is hooked into our motor controller.
 

@@ -30,6 +30,7 @@ But don't worry if this looks complicated, because it's super simple for us. All
 ## Motor Setup
 Follow the club instructions on building the actual robot. Here's a diagram for how the L298N motor controller should be hooked up to the Arduino:
 ![Wiring Diagram](https://raw.githubusercontent.com/Penn-State-Robotics-Club/tutorials/master/resources/L298N%20Motor%20Battery%20Wiring.PNG)
+
 Connect `IN1` from L298N to `pin 7` on the Arduino
 `IN2` -> `pin 6`
 `IN3` -> `pin 5`
